@@ -39,9 +39,9 @@ function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src="https://page.gensparksite.com/v1/base64_upload/5659ba61da5b2691bc0c882ee9be8d80" 
-              alt="The Mountain Breeze Galle Cabanas" 
+            <img
+              src="/images/logo/mountain-breeze-galle-logo.png"
+              alt="The Mountain Breeze Galle Cabanas"
               className="h-12 w-auto"
             />
             <div className="hidden md:block">

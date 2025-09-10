@@ -26,6 +26,48 @@ function Location() {
       travelTime: '10-15 minutes'
     },
     {
+      name: 'Unawatuna Beach',
+      distance: '8.2 km',
+      description: 'Famous golden sandy beach perfect for swimming, snorkeling, and water sports',
+      travelTime: '15-20 minutes'
+    },
+    {
+      name: 'Japanese Peace Pagoda',
+      distance: '9.1 km',
+      description: 'Buddhist temple offering panoramic views of the coastline and peaceful meditation',
+      travelTime: '18-22 minutes'
+    },
+    {
+      name: 'Jungle Beach',
+      distance: '7.8 km',
+      description: 'Hidden gem beach surrounded by lush jungle, ideal for quiet relaxation',
+      travelTime: '15-18 minutes'
+    },
+    {
+      name: 'Martin Wickramasinghe Museum',
+      distance: '12.5 km',
+      description: 'Cultural museum showcasing Sri Lankan literature, folk art, and traditional crafts',
+      travelTime: '20-25 minutes'
+    },
+    {
+      name: 'Koggala Lake',
+      distance: '14.3 km',
+      description: 'Scenic freshwater lake with boat tours, bird watching, and temple islands',
+      travelTime: '22-28 minutes'
+    },
+    {
+      name: 'Snake Island',
+      distance: '15.7 km',
+      description: 'Small island accessible by boat with pristine beaches and snorkeling spots',
+      travelTime: '25-30 minutes'
+    },
+    {
+      name: 'Galle International Cricket Stadium',
+      distance: '6.8 km',
+      description: 'World-famous cricket ground with ocean views, hosting international matches',
+      travelTime: '12-16 minutes'
+    },
+    {
       name: 'Koggala Airport',
       distance: '17.28 km',
       description: 'Nearest airport for domestic flights and charter services',

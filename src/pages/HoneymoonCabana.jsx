@@ -33,19 +33,19 @@ function HoneymoonCabana() {
 
   const galleryImages = [
     {
-      src: 'https://lh3.googleusercontent.com/p/AF1QipMoJoxE2XzXDU_NFavMwoPZxVP1-A6NZ0HPxhyC=w800',
+      src: '/images/romantic/romantic-evening-setup.jpg',
       alt: 'Romantic evening setup with lighting'
     },
     {
-      src: 'https://lh3.googleusercontent.com/p/AF1QipPMmk-zdoXqsgi3Tn-OFUl2rgVNWORe3_qLjb48=w800',
+      src: '/images/hero/evening-ambiance-latest.jpg',
       alt: 'Evening ambiance and garden lighting'
     },
     {
-      src: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4np441yu0CwqGXSg1baB9jW-8bGetSqgxAAnMkogE8t_tUYuizUijgnLYQHOjx3HDpCCwE86sHJiWh0xVOTXk67O0mxRa3cTVyCFH99WRoGt9WVrlJnpYHCTSdTg2YBQvrlT_Fpt2-eyqOQ=w800',
+      src: '/images/cabanas/mountain-view-cabana-interior.jpg',
       alt: 'Intimate cabana interior'
     },
     {
-      src: 'https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w800',
+      src: '/images/hero/overview-all-landscape.jpg',
       alt: 'Garden setting for romantic moments'
     }
   ];
@@ -61,7 +61,7 @@ function HoneymoonCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipMoJoxE2XzXDU_NFavMwoPZxVP1-A6NZ0HPxhyC=w1200"
+            src="/images/romantic/romantic-evening-setup.jpg"
             alt="Honeymoon Cabana romantic setup"
             className="w-full h-full object-cover"
           />
@@ -349,19 +349,19 @@ function HoneymoonCabana() {
                 title: 'Candlelit Dinner',
                 description: 'Private dinner setup with candles and flowers on your balcony or in the garden',
                 price: 'Available on request',
-                image: 'https://lh3.googleusercontent.com/p/AF1QipNDok67CTjFiS3XK5O0wBdzZCOH6_X_ekx2222L=w600'
+                image: '/images/dining/food-and-drink-setup.jpg'
               },
               {
                 title: 'Floral Arrangements',
                 description: 'Fresh flower decorations for your room and bed with rose petals',
                 price: 'Available on request',
-                image: 'https://lh3.googleusercontent.com/p/AF1QipMoJoxE2XzXDU_NFavMwoPZxVP1-A6NZ0HPxhyC=w600'
+                image: '/images/romantic/romantic-evening-setup.jpg'
               },
               {
                 title: 'Surprise Setup',
                 description: 'Custom surprise arrangements for proposals or special celebrations',
                 price: 'Available on request',
-                image: 'https://lh3.googleusercontent.com/p/AF1QipPMmk-zdoXqsgi3Tn-OFUl2rgVNWORe3_qLjb48=w600'
+                image: '/images/hero/evening-ambiance-latest.jpg'
               }
             ].map((addon, index) => (
               <motion.div

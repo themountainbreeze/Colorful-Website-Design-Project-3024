@@ -22,84 +22,84 @@ function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: 'https://lh3.googleusercontent.com/p/AF1QipNYq_lAQlNwYMdzkA3ug0TCN6QSUz8pfEH0uoOl=w1200',
+      src: '/images/hero/cabana-exterior-landscape.jpg',
       alt: 'Cabana exterior and garden views',
       category: 'exterior',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 2,
-      src: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4np441yu0CwqGXSg1baB9jW-8bGetSqgxAAnMkogE8t_tUYuizUijgnLYQHOjx3HDpCCwE86sHJiWh0xVOTXk67O0mxRa3cTVyCFH99WRoGt9WVrlJnpYHCTSdTg2YBQvrlT_Fpt2-eyqOQ=w1200',
+      src: '/images/cabanas/mountain-view-cabana-interior.jpg',
       alt: 'Mountain-view cabana interior',
       category: 'cabanas',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 3,
-      src: 'https://lh3.googleusercontent.com/p/AF1QipNDok67CTjFiS3XK5O0wBdzZCOH6_X_ekx2222L=w1200',
+      src: '/images/dining/food-and-drink-setup.jpg',
       alt: 'Dining setup and food presentation',
       category: 'dining',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 4,
-      src: 'https://lh3.googleusercontent.com/p/AF1QipMoJoxE2XzXDU_NFavMwoPZxVP1-A6NZ0HPxhyC=w1200',
+      src: '/images/romantic/romantic-evening-setup.jpg',
       alt: 'Romantic evening setup with lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 5,
-      src: 'https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w1200',
+      src: '/images/hero/overview-all-landscape.jpg',
       alt: 'Garden and outdoor amenities',
       category: 'amenities',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 6,
-      src: 'https://lh3.googleusercontent.com/p/AF1QipPMmk-zdoXqsgi3Tn-OFUl2rgVNWORe3_qLjb48=w1200',
+      src: '/images/hero/evening-ambiance-latest.jpg',
       alt: 'Evening ambiance and garden lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 7,
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90AXI4z7n5hUIgYYVACGidSJSI0Hb0qPzwwS8fZuVf_niEMvUbWvUWsJjRJyqQ6cKfw8xWx-Xc6KlK8c_QqptN2AnMbo5Kx7v_4pdFGWKc-iCVPyaWZ37wttuI237HZ6bIvOpf5R1ZdORxXW=w1200',
+      src: '/images/gallery/guest-cozy-interior-bunny-bro.jpg',
       alt: 'Guest photo of cozy interior',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 8,
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90D4Dh8pKDVPTzFdjB3fpXiNs0AwwoYKIHCb-opE0cG1gjUkK-uCFlO8BezxNpnInuR5C5HKFJyhFxATKtFWqOiCVyevZ7IPTAz-BNc3S9LecT5934Mvu0PO2ZNhLyieY61S05LpSz0iEj_r=w1200',
+      src: '/images/gallery/guest-cabana-facilities-akash.jpg',
       alt: 'Guest photo of cabana facilities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 9,
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90AYoLl8jLpWJwzjScBdt6ORRUCWLY4_Jm6vMGBkXR6AhlWeOdnLNRFKd6jch4Zhoqxeka2nTkWvxlBCZv6EnqLfamAymG0nwwk2-EcWt0SiyiFPwqgdNNPEKtZnxKaVMsHaXjbcW5oWIdhp=w1200',
+      src: '/images/amenities/interior-details-amenities-akash.jpg',
       alt: 'Interior details and amenities',
       category: 'amenities',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 10,
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90Dvd542vv4qCrsTWxo9XzWrqBUMskfFn1Urz8dj1M56tE0gRXfPaUrH15tRa02d9cBIoYhtCOQrfMvSfG8_bbIuKaOqmpY2DgyOqYS3o-z8E6n5FGEgwf84cROPLHU-Bjyv5TgYjsFuPo6T=w1200',
+      src: '/images/exterior/garden-outdoor-spaces-bunny-bro.jpg',
       alt: 'Garden and outdoor spaces',
       category: 'exterior',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 11,
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90Aw1xsXMSU6UYHCg0SltAuQUYtksKIS63Vht9em5nAsNgFSgpb_j0512foIy_vY-5uTTM_G24QpNY3wXIItpkZ2CoqowWvRnaWqgq6pRuoBuIG1Ugl3HSgLlXTq-LM1sxzTgc0x=w1200',
+      src: '/images/exterior/peaceful-garden-setting-nimesha.jpg',
       alt: 'Peaceful garden setting',
       category: 'exterior',
       credit: 'Guest photo via Google - Nimesha Thennakoon'
     },
     {
       id: 12,
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90D3GRYOSghGiizcNRFMnwZ4NpiwxoB03l9Osqij75Irs4sQ4Z86jrhkvN7gxKhj7doYWLunW2YPWLb4VtVmxWnwCj8IW3wMyIIIQN8i5zbHKsmNq2BTWTy_d0wb_SJYhttKZZjnZLYz8jAd=w1200',
+      src: '/images/dining/dining-area-meal-presentation-bunny-bro.jpg',
       alt: 'Dining area and meal presentation',
       category: 'dining',
       credit: 'Guest photo via Google - Bunny bro'
@@ -142,7 +142,7 @@ function Gallery() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w1200"
+            src="/images/hero/overview-all-landscape.jpg"
             alt="Mountain Breeze Gallery"
             className="w-full h-full object-cover"
           />

@@ -88,7 +88,7 @@ function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNYq_lAQlNwYMdzkA3ug0TCN6QSUz8pfEH0uoOl=w1200"
+            src="/images/hero/cabana-exterior-landscape.jpg"
             alt="The Mountain Breeze Galle Cabanas exterior"
             className="w-full h-full object-cover"
           />

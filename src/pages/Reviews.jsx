@@ -8,6 +8,20 @@ const { FiStar, FiExternalLink } = FiIcons;
 function Reviews() {
   const googleReviews = [
     {
+      text: "The place was wonderful, clean,neat with best security and privacy😍 We had an amazing time at there 😍",
+      author: "Sanduni Hansamali",
+      rating: 5,
+      date: "4 months ago",
+      source: "Google"
+    },
+    {
+      text: "I am staying two days this place. Delicious food and Friendly service. Recommended to anyone to staying this place.Thanks for your Hospitality.",
+      author: "indika kanaththage",
+      rating: 5,
+      date: "2 months ago",
+      source: "Google"
+    },
+    {
       text: "Highly recommended! We really enjoyed our one-night stay — great value for money. The host was also very helpful and welcoming. We'll definitely visit again!",
       author: "Mohanashiyaam Balasubramaniam",
       rating: 5,
@@ -89,7 +103,7 @@ function Reviews() {
   });
 
   const averageRating = 4.9;
-  const totalReviews = 44;
+  const totalReviews = 46;
 
   const renderStars = (rating) => {
     return [...Array(5)].map((_, i) => (
