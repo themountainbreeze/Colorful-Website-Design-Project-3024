@@ -19,6 +19,9 @@ import About from './pages/About';
 import FAQs from './pages/FAQs';
 import Policies from './pages/Policies';
 import Experiences from './pages/Experiences';
+import ContactUs from './pages/ContactUs';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfConditions from './pages/TermsOfConditions';
 
 function App() {
   return (
@@ -42,6 +45,9 @@ function App() {
             <Route path="/faqs" element={<FAQs />} />
             <Route path="/policies" element={<Policies />} />
             <Route path="/experiences" element={<Experiences />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-conditions" element={<TermsOfConditions />} />
           </Routes>
         </AnimatePresence>
         <Footer />
