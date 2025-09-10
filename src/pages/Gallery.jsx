@@ -190,10 +190,10 @@ function Gallery() {
     },
     {
       id: 25,
-      src: '/images/gallery/nimesha-exterior-2.jpg',
-      alt: 'Garden and outdoor spaces with lush greenery',
+      src: '/images/gallery/property-exterior-1.jpg',
+      alt: 'Beautiful property exterior view',
       category: 'exterior',
-      credit: 'Guest photo via Google - Nimesha Thennakoon'
+      credit: 'Property photo via Google Maps'
     },
     {
       id: 26,
@@ -220,6 +220,27 @@ function Gallery() {
       id: 29,
       src: '/images/dining/candle-light-dinner-setup.jpg',
       alt: 'Elegant candle light dinner arrangement',
+      category: 'romantic',
+      credit: 'Wikimedia Commons'
+    },
+    {
+      id: 30,
+      src: '/images/gallery/property-exterior-2.jpg',
+      alt: 'Stunning property landscape view',
+      category: 'exterior',
+      credit: 'Property photo via Google Maps'
+    },
+    {
+      id: 31,
+      src: '/images/gallery/property-exterior-3.jpg',
+      alt: 'Scenic property surroundings',
+      category: 'exterior',
+      credit: 'Property photo via Google Maps'
+    },
+    {
+      id: 32,
+      src: '/images/romantic/candlelit-dinner-2.jpg',
+      alt: 'Elegant candlelit dinner arrangement',
       category: 'romantic',
       credit: 'Wikimedia Commons'
     }

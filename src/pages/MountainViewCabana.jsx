@@ -333,7 +333,7 @@ function MountainViewCabana() {
               {
                 name: 'Full English/Irish',
                 description: 'Traditional hearty breakfast with eggs, bacon, sausages, beans, and toast',
-                image: '/images/dining/full-english-breakfast.jpg'
+                image: '/images/dining/full-english-breakfast-new.jpg'
               },
               {
                 name: 'Asian Breakfast',
@@ -343,7 +343,7 @@ function MountainViewCabana() {
               {
                 name: 'Halal Options',
                 description: 'Halal-certified breakfast choices prepared according to Islamic dietary laws',
-                image: '/images/dining/halal-breakfast.jpg'
+                image: '/images/dining/halal-breakfast-new.jpg'
               }
             ].map((breakfast, index) => (
               <motion.div

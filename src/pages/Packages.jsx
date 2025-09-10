@@ -65,7 +65,7 @@ function Packages() {
         'Evening ambiance setup',
         'Free Wi-Fi'
       ],
-      image: '/images/dining/candlelit-dinner-romantic.jpg'
+      image: '/images/packages/night-out-meals.jpg'
     },
     {
       id: 'night-out-only',
@@ -84,7 +84,7 @@ function Packages() {
         'Basic amenities',
         'Garden access'
       ],
-      image: '/images/hero/evening-ambiance-romantic.jpg'
+      image: '/images/packages/night-out-only.jpg'
     },
     {
       id: 'day-out-meals',

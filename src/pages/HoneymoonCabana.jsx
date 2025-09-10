@@ -33,20 +33,20 @@ function HoneymoonCabana() {
 
   const galleryImages = [
     {
-      src: '/images/romantic/romantic-evening-setup.jpg',
-      alt: 'Romantic evening setup with lighting'
+      src: '/images/romantic/honeymoon-hero-1.jpg',
+      alt: 'Honeymoon Cabana romantic exterior view'
     },
     {
-      src: '/images/hero/evening-ambiance-latest.jpg',
-      alt: 'Evening ambiance and garden lighting'
+      src: '/images/romantic/honeymoon-hero-2.jpg',
+      alt: 'Intimate cabana setting with romantic ambiance'
     },
     {
-      src: '/images/cabanas/mountain-view-cabana-interior.jpg',
-      alt: 'Intimate cabana interior'
+      src: '/images/romantic/honeymoon-hero-3.jpg',
+      alt: 'Beautiful romantic setup for couples'
     },
     {
-      src: '/images/hero/overview-all-landscape.jpg',
-      alt: 'Garden setting for romantic moments'
+      src: '/images/romantic/candlelit-dinner-1.jpg',
+      alt: 'Candlelit dinner romantic setup'
     }
   ];
 
@@ -61,7 +61,7 @@ function HoneymoonCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/romantic/romantic-evening-setup.jpg"
+            src="/images/romantic/honeymoon-hero-1.jpg"
             alt="Honeymoon Cabana romantic setup"
             className="w-full h-full object-cover"
           />
@@ -349,19 +349,19 @@ function HoneymoonCabana() {
                 title: 'Candlelit Dinner',
                 description: 'Private dinner setup with candles and flowers on your balcony or in the garden',
                 price: 'Available on request',
-                image: '/images/romantic/romantic-evening-setup.jpg'
+                image: '/images/romantic/candlelit-dinner-1.jpg'
               },
               {
                 title: 'Floral Arrangements',
                 description: 'Fresh flower decorations for your room and bed with rose petals',
                 price: 'Available on request',
-                image: '/images/romantic/romantic-evening-setup.jpg'
+                image: '/images/romantic/floral-arrangement-1.jpg'
               },
               {
                 title: 'Surprise Setup',
                 description: 'Custom surprise arrangements for proposals or special celebrations',
                 price: 'Available on request',
-                image: '/images/hero/evening-ambiance-romantic.jpg'
+                image: '/images/romantic/honeymoon-hero-2.jpg'
               }
             ].map((addon, index) => (
               <motion.div

@@ -10,7 +10,7 @@ function Dining() {
     {
       name: 'Full English/Irish Breakfast',
       description: 'Traditional hearty breakfast featuring eggs, bacon, sausages, baked beans, grilled tomatoes, and toast. Perfect for starting your day with energy.',
-      image: '/images/dining/full-english-breakfast.jpg',
+      image: '/images/dining/full-english-breakfast-new.jpg',
       highlights: ['Farm-fresh eggs', 'Local bacon & sausages', 'Homemade bread', 'Fresh tomatoes']
     },
     {
@@ -22,7 +22,7 @@ function Dining() {
     {
       name: 'Halal Breakfast',
       description: 'Halal-certified breakfast options prepared according to Islamic dietary laws, featuring fresh and flavorful dishes.',
-      image: '/images/dining/halal-breakfast.jpg',
+      image: '/images/dining/halal-breakfast-new.jpg',
       highlights: ['Halal certified', 'Fresh ingredients', 'Traditional flavors', 'Dietary compliance']
     }
   ];

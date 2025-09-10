@@ -13,7 +13,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'Wander the UNESCO-era ramparts, snap photos of the iconic palm-framed Galle Lighthouse, explore boutiques and cafes, and visit museums like the National Maritime Museum inside the fort walls.',
       highlights: ['UNESCO World Heritage site', 'Historic lighthouse', 'Colonial architecture', 'Boutique shopping', 'Maritime museum'],
-      image: '/images/hero/exterior-landscape-google.jpg',
+      image: '/images/experiences/galle-lighthouse.jpg',
       bestTime: 'Morning or late afternoon'
     },
     {
@@ -22,7 +22,7 @@ function Experiences() {
       duration: '1-2 hours',
       description: 'A serene white stupa perched atop Rumassala Hill with wide coastal views; built by Japanese Buddhist monks as a symbol of peace. Combine it with a short hike or a beach stop below.',
       highlights: ['Panoramic ocean views', 'Buddhist temple', 'Peaceful meditation', 'Rumassala Hill hike', 'Sunset views'],
-      image: '/images/hero/overview-all-landscape-google.jpg',
+      image: '/images/experiences/japanese-peace-pagoda.jpg',
       bestTime: 'Sunset for best views'
     },
     {
@@ -31,7 +31,7 @@ function Experiences() {
       duration: '3-4 hours',
       description: 'Sheltered cove with calm, clear water; great for easy snorkeling from shore and spotting reef fish. Local dive/snorkel centers offer guided sessions and gear.',
       highlights: ['Crystal clear waters', 'Coral reef snorkeling', 'Tropical fish spotting', 'Beach relaxation', 'Equipment rental available'],
-      image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90AXI4z7n5hUIgYYVACGidSJSI0Hb0qPzwwS8fZuVf_niEMvUbWvUWsJjRJyqQ6cKfw8xWx-Xc6KlK8c_QqptN2AnMbo5Kx7v_4pdFGWKc-iCVPyaWZ37wttuI237HZ6bIvOpf5R1ZdORxXW=w800',
+      image: '/images/experiences/jungle-beach.jpg',
       bestTime: 'Morning for calm waters'
     },
     {
@@ -40,7 +40,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'A scenic lake cruise through islets and mangroves, with stops at a temple island and a hands-on cinnamon demonstration at Cinnamon Island. Birdlife is abundant; tours range 2–3 hours.',
       highlights: ['Mangrove exploration', 'Cinnamon Island tour', 'Temple island visit', 'Bird watching', 'Traditional boat ride'],
-      image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90D4Dh8pKDVPTzFdjB3fpXiNs0AwwoYKIHCb-opE0cG1gjUkK-uCFlO8BezxNpnInuR5C5HKFJyhFxATKtFWqOiCVyevZ7IPTAz-BNc3S9LecT5934Mvu0PO2ZNhLyieY61S05LpSz0iEj_r=w800',
+      image: '/images/experiences/koggala-lake.jpg',
       bestTime: 'Early morning or late afternoon'
     },
     {
@@ -49,7 +49,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'Tour a low-country tea estate famed for "Virgin White Tea." Factory visit, tea fields walk, and tasting are typically included; many travelers pair it with Galle or Koggala excursions.',
       highlights: ['Virgin White Tea tasting', 'Tea plantation tour', 'Factory demonstration', 'Scenic tea fields', 'Educational experience'],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNDok67CTjFiS3XK5O0wBdzZCOH6_X_ekx2222L=w800',
+      image: '/images/experiences/tea-plantation.jpg',
       bestTime: 'Morning for factory operations'
     },
     {
@@ -58,7 +58,7 @@ function Experiences() {
       duration: '1-2 hours',
       description: 'A conservation-focused visit to see rescued turtles, learn about nesting and releases, and support protection efforts on Sri Lanka\'s south coast.',
       highlights: ['Turtle conservation', 'Baby turtle releases', 'Educational programs', 'Marine conservation', 'Photography opportunities'],
-      image: '/images/gallery/nimesha-exterior-1.jpg',
+      image: '/images/experiences/turtle-hatchery.jpg',
       bestTime: 'Evening for turtle releases'
     }
   ];
@@ -95,7 +95,7 @@ function Experiences() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/images/hero/overview-all-landscape-google.jpg"
+            src="/images/experiences/galle-lighthouse.jpg"
             alt="Experiences near Mountain Breeze"
             className="w-full h-full object-cover"
           />
