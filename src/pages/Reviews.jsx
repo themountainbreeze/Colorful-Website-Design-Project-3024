@@ -126,8 +126,8 @@ function Reviews() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://lh3.googleusercontent.com/geougc-cs/AB3l90D3GRYOSghGiizcNRFMnwZ4NpiwxoB03l9Osqij75Irs4sQ4Z86jrhkvN7gxKhj7doYWLunW2YPWLb4VtVmxWnwCj8IW3wMyIIIQN8i5zbHKsmNq2BTWTy_d0wb_SJYhttKZZjnZLYz8jAd=w1200"
-            alt="Guest reviews"
+            src="/images/gallery/bunny-bro-interior-1.jpg"
+            alt="Happy guests enjoying their stay at Mountain Breeze Galle"
             className="w-full h-full object-cover"
           />
         </div>

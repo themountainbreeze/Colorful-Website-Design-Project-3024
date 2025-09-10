@@ -10,7 +10,7 @@ function Dining() {
     {
       name: 'Full English/Irish Breakfast',
       description: 'Traditional hearty breakfast featuring eggs, bacon, sausages, baked beans, grilled tomatoes, and toast. Perfect for starting your day with energy.',
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNDok67CTjFiS3XK5O0wBdzZCOH6_X_ekx2222L=w800',
+      image: '/images/dining/food-and-drink-google.jpg',
       highlights: ['Farm-fresh eggs', 'Local bacon & sausages', 'Homemade bread', 'Fresh tomatoes']
     },
     {
@@ -243,8 +243,8 @@ function Dining() {
               className="relative"
             >
               <img
-                src="https://lh3.googleusercontent.com/geougc-cs/AB3l90D3GRYOSghGiizcNRFMnwZ4NpiwxoB03l9Osqij75Irs4sQ4Z86jrhkvN7gxKhj7doYWLunW2YPWLb4VtVmxWnwCj8IW3wMyIIIQN8i5zbHKsmNq2BTWTy_d0wb_SJYhttKZZjnZLYz8jAd=w800"
-                alt="Dining setup at Mountain Breeze"
+                src="/images/dining/dining-area-meal-presentation-bunny-bro.jpg"
+                alt="Authentic Sri Lankan dining setup at Mountain Breeze Galle"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
             </motion.div>

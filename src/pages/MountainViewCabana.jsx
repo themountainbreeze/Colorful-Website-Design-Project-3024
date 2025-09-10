@@ -33,20 +33,20 @@ function MountainViewCabana() {
 
   const galleryImages = [
     {
-      src: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4np441yu0CwqGXSg1baB9jW-8bGetSqgxAAnMkogE8t_tUYuizUijgnLYQHOjx3HDpCCwE86sHJiWh0xVOTXk67O0mxRa3cTVyCFH99WRoGt9WVrlJnpYHCTSdTg2YBQvrlT_Fpt2-eyqOQ=w800',
-      alt: 'Mountain-view cabana interior'
+      src: '/images/cabanas/mountain-view-cabana-interior.jpg',
+      alt: 'Mountain-view cabana interior with comfortable seating and modern amenities'
     },
     {
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90AXI4z7n5hUIgYYVACGidSJSI0Hb0qPzwwS8fZuVf_niEMvUbWvUWsJjRJyqQ6cKfw8xWx-Xc6KlK8c_QqptN2AnMbo5Kx7v_4pdFGWKc-iCVPyaWZ37wttuI237HZ6bIvOpf5R1ZdORxXW=w800',
-      alt: 'Cozy interior with natural lighting'
+      src: '/images/gallery/bunny-bro-interior-1.jpg',
+      alt: 'Cozy interior with natural lighting and mountain views'
     },
     {
-      src: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90D4Dh8pKDVPTzFdjB3fpXiNs0AwwoYKIHCb-opE0cG1gjUkK-uCFlO8BezxNpnInuR5C5HKFJyhFxATKtFWqOiCVyevZ7IPTAz-BNc3S9LecT5934Mvu0PO2ZNhLyieY61S05LpSz0iEj_r=w800',
-      alt: 'Cabana facilities and amenities'
+      src: '/images/gallery/akash-interior-1.jpg',
+      alt: 'Cabana facilities and amenities with guest comfort focus'
     },
     {
-      src: 'https://lh3.googleusercontent.com/p/AF1QipNYq_lAQlNwYMdzkA3ug0TCN6QSUz8pfEH0uoOl=w800',
-      alt: 'Garden and exterior views'
+      src: '/images/hero/exterior-landscape-google.jpg',
+      alt: 'Garden and exterior views of Mountain Breeze Galle cabanas'
     }
   ];
 
@@ -61,8 +61,8 @@ function MountainViewCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4np441yu0CwqGXSg1baB9jW-8bGetSqgxAAnMkogE8t_tUYuizUijgnLYQHOjx3HDpCCwE86sHJiWh0xVOTXk67O0mxRa3cTVyCFH99WRoGt9WVrlJnpYHCTSdTg2YBQvrlT_Fpt2-eyqOQ=w1200"
-            alt="Mountain-View Cabana interior"
+            src="/images/cabanas/mountain-view-cabana-interior.jpg"
+            alt="Mountain-View Cabana interior with stunning mountain views and modern amenities"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30"></div>
@@ -333,17 +333,17 @@ function MountainViewCabana() {
               {
                 name: 'Full English/Irish',
                 description: 'Traditional hearty breakfast with eggs, bacon, sausages, beans, and toast',
-                image: 'https://lh3.googleusercontent.com/p/AF1QipNDok67CTjFiS3XK5O0wBdzZCOH6_X_ekx2222L=w600'
+                image: '/images/dining/food-and-drink-google.jpg'
               },
               {
                 name: 'Asian Breakfast',
                 description: 'Local Sri Lankan specialties and Asian-style breakfast dishes',
-                image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90D3GRYOSghGiizcNRFMnwZ4NpiwxoB03l9Osqij75Irs4sQ4Z86jrhkvN7gxKhj7doYWLunW2YPWLb4VtVmxWnwCj8IW3wMyIIIQN8i5zbHKsmNq2BTWTy_d0wb_SJYhttKZZjnZLYz8jAd=w600'
+                image: '/images/dining/dining-area-meal-presentation-bunny-bro.jpg'
               },
               {
                 name: 'Halal Options',
                 description: 'Halal-certified breakfast choices prepared according to Islamic dietary laws',
-                image: 'https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w600'
+                image: '/images/dining/food-and-drink-setup.jpg'
               }
             ].map((breakfast, index) => (
               <motion.div

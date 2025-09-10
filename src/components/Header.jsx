@@ -8,30 +8,37 @@ const { FiMenu, FiX, FiChevronDown } = FiIcons;
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isCabanasOpen, setIsCabanasOpen] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState(null);
   const location = useLocation();
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { 
-      name: 'Cabanas', 
+    {
+      name: 'Cabanas',
       href: '/cabanas',
       submenu: [
+        { name: 'Overview', href: '/cabanas' },
         { name: 'Mountain-View Cabana', href: '/cabanas/mountain-view' },
         { name: 'Honeymoon Cabana', href: '/cabanas/honeymoon' }
       ]
     },
-    { name: 'Packages & Offers', href: '/packages' },
-    { name: 'Amenities', href: '/amenities' },
+    { name: 'Packages', href: '/packages' },
     { name: 'Dining', href: '/dining' },
     { name: 'Gallery', href: '/gallery' },
-    { name: 'Reviews', href: '/reviews' },
-    { name: 'Location', href: '/location' },
-    { name: 'Contact Us', href: '/contact' },
-    { name: 'Booking', href: '/booking' },
-    { name: 'About', href: '/about' },
-    { name: 'FAQs', href: '/faqs' },
-    { name: 'Experiences', href: '/experiences' }
+    {
+      name: 'More',
+      href: '#',
+      submenu: [
+        { name: 'Amenities', href: '/amenities' },
+        { name: 'Experiences', href: '/experiences' },
+        { name: 'Reviews', href: '/reviews' },
+        { name: 'Location', href: '/location' },
+        { name: 'About', href: '/about' },
+        { name: 'FAQs', href: '/faqs' }
+      ]
+    },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Book Now', href: '/booking', highlight: true }
   ];
 
   return (
@@ -80,8 +87,10 @@ function Header() {
                 ) : (
                   <Link
                     to={item.href}
-                    className={`text-night-charcoal hover:text-emerald-canopy transition-colors duration-200 ${
-                      location.pathname === item.href ? 'text-emerald-canopy font-semibold' : ''
+                    className={`transition-all duration-200 ${
+                      item.highlight
+                        ? 'px-6 py-2 bg-gradient-to-r from-emerald-canopy to-ocean-teal text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105'
+                        : `text-night-charcoal hover:text-emerald-canopy ${location.pathname === item.href ? 'text-emerald-canopy font-semibold' : ''}`
                     }`}
                   >
                     {item.name}
@@ -91,15 +100,7 @@ function Header() {
             ))}
           </nav>
 
-          {/* Book Now Button */}
-          <a
-            href="https://wa.me/94775145131?text=Hello! I'd like to book a stay at The Mountain Breeze Galle Cabanas."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-canopy to-ocean-teal text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200"
-          >
-            Book on WhatsApp
-          </a>
+
 
           {/* Mobile menu button */}
           <button
@@ -124,13 +125,13 @@ function Header() {
                   {item.submenu ? (
                     <div>
                       <button
-                        onClick={() => setIsCabanasOpen(!isCabanasOpen)}
+                        onClick={() => setOpenSubmenu(openSubmenu === item.name ? null : item.name)}
                         className="flex items-center justify-between w-full px-3 py-2 text-night-charcoal hover:text-emerald-canopy"
                       >
                         <span>{item.name}</span>
-                        <SafeIcon icon={FiChevronDown} className={`w-4 h-4 transform transition-transform ${isCabanasOpen ? 'rotate-180' : ''}`} />
+                        <SafeIcon icon={FiChevronDown} className={`w-4 h-4 transform transition-transform ${openSubmenu === item.name ? 'rotate-180' : ''}`} />
                       </button>
-                      {isCabanasOpen && (
+                      {openSubmenu === item.name && (
                         <div className="pl-6 space-y-1">
                           {item.submenu.map((subitem) => (
                             <Link
@@ -149,21 +150,18 @@ function Header() {
                     <Link
                       to={item.href}
                       onClick={() => setIsMenuOpen(false)}
-                      className="block px-3 py-2 text-night-charcoal hover:text-emerald-canopy"
+                      className={`block px-3 py-2 transition-all duration-200 ${
+                        item.highlight
+                          ? 'mx-3 mt-2 bg-gradient-to-r from-emerald-canopy to-ocean-teal text-white text-center font-semibold rounded-lg'
+                          : 'text-night-charcoal hover:text-emerald-canopy'
+                      }`}
                     >
                       {item.name}
                     </Link>
                   )}
                 </div>
               ))}
-              <a
-                href="https://wa.me/94775145131?text=Hello! I'd like to book a stay at The Mountain Breeze Galle Cabanas."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block mx-3 mt-4 px-6 py-3 bg-gradient-to-r from-emerald-canopy to-ocean-teal text-white text-center font-semibold rounded-lg"
-              >
-                Book on WhatsApp
-              </a>
+
             </div>
           </motion.div>
         )}

@@ -26,7 +26,7 @@ function Packages() {
         'Free Wi-Fi & amenities',
         'Daily housekeeping'
       ],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNDok67CTjFiS3XK5O0wBdzZCOH6_X_ekx2222L=w800',
+      image: '/images/dining/food-and-drink-google.jpg',
       popular: true
     },
     {
@@ -46,7 +46,7 @@ function Packages() {
         'Daily housekeeping',
         'Garden access'
       ],
-      image: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4np441yu0CwqGXSg1baB9jW-8bGetSqgxAAnMkogE8t_tUYuizUijgnLYQHOjx3HDpCCwE86sHJiWh0xVOTXk67O0mxRa3cTVyCFH99WRoGt9WVrlJnpYHCTSdTg2YBQvrlT_Fpt2-eyqOQ=w800'
+      image: '/images/cabanas/mountain-view-cabana-interior.jpg'
     },
     {
       id: 'night-out-meals',
@@ -65,7 +65,7 @@ function Packages() {
         'Evening ambiance setup',
         'Free Wi-Fi'
       ],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipMoJoxE2XzXDU_NFavMwoPZxVP1-A6NZ0HPxhyC=w800'
+      image: '/images/romantic/romantic-evening-setup.jpg'
     },
     {
       id: 'night-out-only',
@@ -84,7 +84,7 @@ function Packages() {
         'Basic amenities',
         'Garden access'
       ],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipPMmk-zdoXqsgi3Tn-OFUl2rgVNWORe3_qLjb48=w800'
+      image: '/images/hero/evening-ambiance-latest.jpg'
     },
     {
       id: 'day-out-meals',
@@ -103,7 +103,7 @@ function Packages() {
         'Free Wi-Fi',
         'Garden relaxation'
       ],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w800'
+      image: '/images/hero/overview-all-landscape.jpg'
     },
     {
       id: 'day-out-only',
@@ -122,7 +122,7 @@ function Packages() {
         'Basic amenities',
         'Relaxation areas'
       ],
-      image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90AXI4z7n5hUIgYYVACGidSJSI0Hb0qPzwwS8fZuVf_niEMvUbWvUWsJjRJyqQ6cKfw8xWx-Xc6KlK8c_QqptN2AnMbo5Kx7v_4pdFGWKc-iCVPyaWZ37wttuI237HZ6bIvOpf5R1ZdORxXW=w800'
+      image: '/images/gallery/bunny-bro-interior-1.jpg'
     }
   ];
 

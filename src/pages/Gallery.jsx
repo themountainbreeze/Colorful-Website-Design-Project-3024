@@ -103,6 +103,41 @@ function Gallery() {
       alt: 'Dining area and meal presentation',
       category: 'dining',
       credit: 'Guest photo via Google - Bunny bro'
+    },
+    {
+      id: 13,
+      src: '/images/hero/exterior-landscape-google.jpg',
+      alt: 'Beautiful exterior landscape and garden views',
+      category: 'exterior',
+      credit: 'Google Maps - The Mountain Breeze Galle'
+    },
+    {
+      id: 14,
+      src: '/images/hero/evening-ambiance-latest-google.jpg',
+      alt: 'Evening ambiance with romantic lighting',
+      category: 'romantic',
+      credit: 'Google Maps - The Mountain Breeze Galle'
+    },
+    {
+      id: 15,
+      src: '/images/dining/food-and-drink-google.jpg',
+      alt: 'Delicious food and drink presentation',
+      category: 'dining',
+      credit: 'Google Maps - The Mountain Breeze Galle'
+    },
+    {
+      id: 16,
+      src: '/images/gallery/akash-interior-1.jpg',
+      alt: 'Comfortable interior with modern amenities',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Akash Snenevirathne'
+    },
+    {
+      id: 17,
+      src: '/images/gallery/akash-interior-2.jpg',
+      alt: 'Spacious cabana interior with natural light',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Akash Snenevirathne'
     }
   ];
 

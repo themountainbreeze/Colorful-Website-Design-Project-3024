@@ -14,7 +14,7 @@ function CabanasOverview() {
       id: 'mountain-view',
       name: 'Mountain-View Cabana',
       subtitle: 'Nature\'s Embrace',
-      image: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4np441yu0CwqGXSg1baB9jW-8bGetSqgxAAnMkogE8t_tUYuizUijgnLYQHOjx3HDpCCwE86sHJiWh0xVOTXk67O0mxRa3cTVyCFH99WRoGt9WVrlJnpYHCTSdTg2YBQvrlT_Fpt2-eyqOQ=w800',
+      image: '/images/cabanas/mountain-view-cabana-interior.jpg',
       description: 'Awake to birdsong and breeze on your private balcony. With AC, Wi‑Fi, and a kitchenette, it\'s effortless comfort amid green vistas.',
       features: [
         { icon: FiCoffee, text: 'Balcony with garden views' },

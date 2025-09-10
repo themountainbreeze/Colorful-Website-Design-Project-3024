@@ -13,7 +13,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'Wander the UNESCO-era ramparts, snap photos of the iconic palm-framed Galle Lighthouse, explore boutiques and cafes, and visit museums like the National Maritime Museum inside the fort walls.',
       highlights: ['UNESCO World Heritage site', 'Historic lighthouse', 'Colonial architecture', 'Boutique shopping', 'Maritime museum'],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNYq_lAQlNwYMdzkA3ug0TCN6QSUz8pfEH0uoOl=w800',
+      image: '/images/hero/exterior-landscape-google.jpg',
       bestTime: 'Morning or late afternoon'
     },
     {
