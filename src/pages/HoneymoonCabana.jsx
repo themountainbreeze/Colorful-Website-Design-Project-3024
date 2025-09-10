@@ -349,7 +349,7 @@ function HoneymoonCabana() {
                 title: 'Candlelit Dinner',
                 description: 'Private dinner setup with candles and flowers on your balcony or in the garden',
                 price: 'Available on request',
-                image: '/images/dining/food-and-drink-setup.jpg'
+                image: '/images/romantic/romantic-evening-setup.jpg'
               },
               {
                 title: 'Floral Arrangements',
@@ -361,7 +361,7 @@ function HoneymoonCabana() {
                 title: 'Surprise Setup',
                 description: 'Custom surprise arrangements for proposals or special celebrations',
                 price: 'Available on request',
-                image: '/images/hero/evening-ambiance-latest.jpg'
+                image: '/images/hero/evening-ambiance-romantic.jpg'
               }
             ].map((addon, index) => (
               <motion.div

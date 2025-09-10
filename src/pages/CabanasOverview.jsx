@@ -28,7 +28,7 @@ function CabanasOverview() {
       id: 'honeymoon',
       name: 'Honeymoon Cabana',
       subtitle: 'Romance Redefined',
-      image: 'https://lh3.googleusercontent.com/p/AF1QipMoJoxE2XzXDU_NFavMwoPZxVP1-A6NZ0HPxhyC=w800',
+      image: '/images/romantic/honeymoon-cabana-romantic-portrait.jpg',
       description: 'Designed for romance—soft lighting, intimate dinners, and dreamlike decor on request. Celebrate under the stars.',
       features: [
         { icon: FiHeart, text: 'Romantic decor setups' },

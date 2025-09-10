@@ -138,6 +138,90 @@ function Gallery() {
       alt: 'Spacious cabana interior with natural light',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
+    },
+    {
+      id: 18,
+      src: '/images/gallery/bunny-bro-interior-2.jpg',
+      alt: 'Cozy interior setup with comfortable seating',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Bunny bro'
+    },
+    {
+      id: 19,
+      src: '/images/gallery/bunny-bro-interior-3.jpg',
+      alt: 'Interior view showcasing modern amenities',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Bunny bro'
+    },
+    {
+      id: 20,
+      src: '/images/gallery/bunny-bro-interior-4.jpg',
+      alt: 'Comfortable cabana interior with mountain views',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Bunny bro'
+    },
+    {
+      id: 21,
+      src: '/images/gallery/bunny-bro-interior-5.jpg',
+      alt: 'Well-appointed interior with natural lighting',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Bunny bro'
+    },
+    {
+      id: 22,
+      src: '/images/gallery/bunny-bro-interior-6.jpg',
+      alt: 'Spacious interior with comfortable furnishings',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Bunny bro'
+    },
+    {
+      id: 23,
+      src: '/images/gallery/akash-interior-3.jpg',
+      alt: 'Modern cabana interior with excellent facilities',
+      category: 'cabanas',
+      credit: 'Guest photo via Google - Akash Snenevirathne'
+    },
+    {
+      id: 24,
+      src: '/images/gallery/nimesha-exterior-1.jpg',
+      alt: 'Beautiful exterior view of the property',
+      category: 'exterior',
+      credit: 'Guest photo via Google - Nimesha Thennakoon'
+    },
+    {
+      id: 25,
+      src: '/images/gallery/nimesha-exterior-2.jpg',
+      alt: 'Garden and outdoor spaces with lush greenery',
+      category: 'exterior',
+      credit: 'Guest photo via Google - Nimesha Thennakoon'
+    },
+    {
+      id: 26,
+      src: '/images/gallery/nimesha-exterior-3.jpg',
+      alt: 'Peaceful garden setting with natural beauty',
+      category: 'exterior',
+      credit: 'Guest photo via Google - Nimesha Thennakoon'
+    },
+    {
+      id: 27,
+      src: '/images/gallery/nimesha-exterior-4.jpg',
+      alt: 'Scenic outdoor views and landscaping',
+      category: 'exterior',
+      credit: 'Guest photo via Google - Nimesha Thennakoon'
+    },
+    {
+      id: 28,
+      src: '/images/dining/candlelit-dinner-romantic.jpg',
+      alt: 'Romantic candlelit dinner setup by the beach',
+      category: 'romantic',
+      credit: 'Wikimedia Commons'
+    },
+    {
+      id: 29,
+      src: '/images/dining/candle-light-dinner-setup.jpg',
+      alt: 'Elegant candle light dinner arrangement',
+      category: 'romantic',
+      credit: 'Wikimedia Commons'
     }
   ];
 

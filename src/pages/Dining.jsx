@@ -10,19 +10,19 @@ function Dining() {
     {
       name: 'Full English/Irish Breakfast',
       description: 'Traditional hearty breakfast featuring eggs, bacon, sausages, baked beans, grilled tomatoes, and toast. Perfect for starting your day with energy.',
-      image: '/images/dining/food-and-drink-google.jpg',
+      image: '/images/dining/full-english-breakfast.jpg',
       highlights: ['Farm-fresh eggs', 'Local bacon & sausages', 'Homemade bread', 'Fresh tomatoes']
     },
     {
       name: 'Asian Breakfast',
       description: 'Authentic Sri Lankan breakfast specialties including string hoppers, coconut roti, curry, and traditional accompaniments.',
-      image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90D3GRYOSghGiizcNRFMnwZ4NpiwxoB03l9Osqij75Irs4sQ4Z86jrhkvN7gxKhj7doYWLunW2YPWLb4VtVmxWnwCj8IW3wMyIIIQN8i5zbHKsmNq2BTWTy_d0wb_SJYhttKZZjnZLYz8jAd=w800',
+      image: '/images/dining/authentic-sri-lankan-cuisine.jpg',
       highlights: ['String hoppers', 'Coconut roti', 'Local curries', 'Traditional spices']
     },
     {
       name: 'Halal Breakfast',
       description: 'Halal-certified breakfast options prepared according to Islamic dietary laws, featuring fresh and flavorful dishes.',
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w800',
+      image: '/images/dining/halal-breakfast.jpg',
       highlights: ['Halal certified', 'Fresh ingredients', 'Traditional flavors', 'Dietary compliance']
     }
   ];

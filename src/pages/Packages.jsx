@@ -26,7 +26,7 @@ function Packages() {
         'Free Wi-Fi & amenities',
         'Daily housekeeping'
       ],
-      image: '/images/dining/food-and-drink-google.jpg',
+      image: '/images/dining/authentic-sri-lankan-cuisine.jpg',
       popular: true
     },
     {
@@ -65,7 +65,7 @@ function Packages() {
         'Evening ambiance setup',
         'Free Wi-Fi'
       ],
-      image: '/images/romantic/romantic-evening-setup.jpg'
+      image: '/images/dining/candlelit-dinner-romantic.jpg'
     },
     {
       id: 'night-out-only',
@@ -84,7 +84,7 @@ function Packages() {
         'Basic amenities',
         'Garden access'
       ],
-      image: '/images/hero/evening-ambiance-latest.jpg'
+      image: '/images/hero/evening-ambiance-romantic.jpg'
     },
     {
       id: 'day-out-meals',

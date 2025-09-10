@@ -333,17 +333,17 @@ function MountainViewCabana() {
               {
                 name: 'Full English/Irish',
                 description: 'Traditional hearty breakfast with eggs, bacon, sausages, beans, and toast',
-                image: '/images/dining/food-and-drink-google.jpg'
+                image: '/images/dining/full-english-breakfast.jpg'
               },
               {
                 name: 'Asian Breakfast',
                 description: 'Local Sri Lankan specialties and Asian-style breakfast dishes',
-                image: '/images/dining/dining-area-meal-presentation-bunny-bro.jpg'
+                image: '/images/dining/authentic-sri-lankan-cuisine.jpg'
               },
               {
                 name: 'Halal Options',
                 description: 'Halal-certified breakfast choices prepared according to Islamic dietary laws',
-                image: '/images/dining/food-and-drink-setup.jpg'
+                image: '/images/dining/halal-breakfast.jpg'
               }
             ].map((breakfast, index) => (
               <motion.div

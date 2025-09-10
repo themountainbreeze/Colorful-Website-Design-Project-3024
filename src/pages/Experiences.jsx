@@ -22,7 +22,7 @@ function Experiences() {
       duration: '1-2 hours',
       description: 'A serene white stupa perched atop Rumassala Hill with wide coastal views; built by Japanese Buddhist monks as a symbol of peace. Combine it with a short hike or a beach stop below.',
       highlights: ['Panoramic ocean views', 'Buddhist temple', 'Peaceful meditation', 'Rumassala Hill hike', 'Sunset views'],
-      image: 'https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w800',
+      image: '/images/hero/overview-all-landscape-google.jpg',
       bestTime: 'Sunset for best views'
     },
     {
@@ -58,7 +58,7 @@ function Experiences() {
       duration: '1-2 hours',
       description: 'A conservation-focused visit to see rescued turtles, learn about nesting and releases, and support protection efforts on Sri Lanka\'s south coast.',
       highlights: ['Turtle conservation', 'Baby turtle releases', 'Educational programs', 'Marine conservation', 'Photography opportunities'],
-      image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90Aw1xsXMSU6UYHCg0SltAuQUYtksKIS63Vht9em5nAsNgFSgpb_j0512foIy_vY-5uTTM_G24QpNY3wXIItpkZ2CoqowWvRnaWqgq6pRuoBuIG1Ugl3HSgLlXTq-LM1sxzTgc0x=w800',
+      image: '/images/gallery/nimesha-exterior-1.jpg',
       bestTime: 'Evening for turtle releases'
     }
   ];
@@ -95,7 +95,7 @@ function Experiences() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w1200"
+            src="/images/hero/overview-all-landscape-google.jpg"
             alt="Experiences near Mountain Breeze"
             className="w-full h-full object-cover"
           />
