@@ -17,10 +17,6 @@ function Home() {
       alt: 'The Mountain Breeze Galle Cabanas exterior'
     },
     {
-      src: '/images/gallery/akash-interior-3.jpg',
-      alt: 'Interior view with modern amenities'
-    },
-    {
       src: '/images/hero/overview-all-landscape.jpg',
       alt: 'Overview of all landscape and facilities'
     },

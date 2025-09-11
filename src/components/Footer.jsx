@@ -4,8 +4,8 @@ import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
 
-const { FiPhone, FiMail, FiMapPin } = FiIcons;
-const { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } = FaIcons;
+const { FiPhone, FiMail, FiMapPin, FiExternalLink } = FiIcons;
+const { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaBed, FaHotel, FaGlobe } = FaIcons;
 
 function Footer() {
   return (
@@ -92,7 +92,7 @@ function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <SafeIcon icon={FiMail} className="w-5 h-5 text-emerald-canopy" />
-                <span className="text-gray-300">contact@themountainbreezegalle.com</span>
+                <span className="text-gray-300">themountainbreezegalle@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <SafeIcon icon={FiMapPin} className="w-5 h-5 text-emerald-canopy mt-1" />
@@ -102,6 +102,73 @@ function Footer() {
                 </span>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Booking Platforms */}
+        <div className="mt-8 pt-8 border-t border-gray-700">
+          <h4 className="text-lg font-semibold text-ceylon-gold mb-4 text-center">Book Direct</h4>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="https://www.booking.com/hotel/lk/the-mountain-breeze-galle.en-gb.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-3 py-2 bg-emerald-canopy/20 rounded-lg hover:bg-emerald-canopy/30 transition-colors duration-200 text-sm"
+            >
+              <SafeIcon icon={FaBed} className="w-4 h-4 text-emerald-canopy" />
+              <span className="text-gray-300">Booking.com</span>
+              <SafeIcon icon={FiExternalLink} className="w-3 h-3 text-gray-400" />
+            </a>
+            <a
+              href="https://www.hostelworld.com/hostels/p/331721/the-mountain-breeze-galle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-3 py-2 bg-emerald-canopy/20 rounded-lg hover:bg-emerald-canopy/30 transition-colors duration-200 text-sm"
+            >
+              <SafeIcon icon={FaHotel} className="w-4 h-4 text-emerald-canopy" />
+              <span className="text-gray-300">Hostelworld</span>
+              <SafeIcon icon={FiExternalLink} className="w-3 h-3 text-gray-400" />
+            </a>
+            <a
+              href="https://www.agoda.com/the-mountain-breeze-galle/hotel/galle-lk.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-3 py-2 bg-emerald-canopy/20 rounded-lg hover:bg-emerald-canopy/30 transition-colors duration-200 text-sm"
+            >
+              <SafeIcon icon={FaGlobe} className="w-4 h-4 text-emerald-canopy" />
+              <span className="text-gray-300">Agoda</span>
+              <SafeIcon icon={FiExternalLink} className="w-3 h-3 text-gray-400" />
+            </a>
+            <a
+              href="https://www.rentbyowner.com/property/the-mountain-breeze-galle-cabanas/BC-13715875"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-3 py-2 bg-emerald-canopy/20 rounded-lg hover:bg-emerald-canopy/30 transition-colors duration-200 text-sm"
+            >
+              <SafeIcon icon={FaHotel} className="w-4 h-4 text-emerald-canopy" />
+              <span className="text-gray-300">RentByOwner</span>
+              <SafeIcon icon={FiExternalLink} className="w-3 h-3 text-gray-400" />
+            </a>
+            <a
+              href="https://www.trip.com/hotels/galle-hotel-detail-127304893/the-mountain-breeze-galle/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-3 py-2 bg-emerald-canopy/20 rounded-lg hover:bg-emerald-canopy/30 transition-colors duration-200 text-sm"
+            >
+              <SafeIcon icon={FaGlobe} className="w-4 h-4 text-emerald-canopy" />
+              <span className="text-gray-300">Trip.com</span>
+              <SafeIcon icon={FiExternalLink} className="w-3 h-3 text-gray-400" />
+            </a>
+            <a
+              href="https://www.hostelz.com/hostel/525503-The-Mountain-Breeze"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-3 py-2 bg-emerald-canopy/20 rounded-lg hover:bg-emerald-canopy/30 transition-colors duration-200 text-sm"
+            >
+              <SafeIcon icon={FaBed} className="w-4 h-4 text-emerald-canopy" />
+              <span className="text-gray-300">Hostelz</span>
+              <SafeIcon icon={FiExternalLink} className="w-3 h-3 text-gray-400" />
+            </a>
           </div>
         </div>
 
