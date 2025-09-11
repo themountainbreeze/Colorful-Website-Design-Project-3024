@@ -27,7 +27,7 @@ function Packages() {
         'Free Wi-Fi & amenities',
         'Daily housekeeping'
       ],
-      image: '/images/dining/authentic-sri-lankan-cuisine.jpg',
+      image: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
       popular: true
     },
     {
@@ -68,7 +68,7 @@ function Packages() {
         'Evening ambiance setup',
         'Free Wi-Fi'
       ],
-      image: '/images/packages/night-out-meals.jpg'
+      image: '/images/more/742322809.jpg'
     },
     {
       id: 'night-out-only',

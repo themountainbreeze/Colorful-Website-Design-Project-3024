@@ -33,20 +33,20 @@ function LuxuryCabana() {
 
   const galleryImages = [
     {
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM.jpeg',
+      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM (1).jpeg',
       alt: 'Luxury cabana interior with deluxe king bed and double bed'
     },
     {
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.54 AM.jpeg',
+      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg',
       alt: 'Spacious luxury cabana accommodating up to 4 guests'
+    },
+    {
+      src: '/images/more/742322813.jpg',
+      alt: 'Luxury cabana exterior and garden views'
     },
     {
       src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.55 AM.jpeg',
       alt: 'Premium amenities and mountain views in luxury cabana'
-    },
-    {
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg',
-      alt: 'Luxury cabana exterior and garden views'
     }
   ];
 

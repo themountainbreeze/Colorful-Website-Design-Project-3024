@@ -10,13 +10,13 @@ function Dining() {
     {
       name: 'Full English/Irish Breakfast',
       description: 'Traditional hearty breakfast featuring eggs, bacon, sausages, baked beans, grilled tomatoes, and toast. Perfect for starting your day with energy.',
-      image: '/images/dining/full-english-breakfast-new.jpg',
+      image: '/images/more/691481180.jpg',
       highlights: ['Farm-fresh eggs', 'Local bacon & sausages', 'Homemade bread', 'Fresh tomatoes']
     },
     {
       name: 'Asian Breakfast',
       description: 'Authentic Sri Lankan breakfast specialties including string hoppers, coconut roti, curry, and traditional accompaniments.',
-      image: '/images/dining/authentic-sri-lankan-cuisine.jpg',
+      image: '/images/more/666493113.jpg',
       highlights: ['String hoppers', 'Coconut roti', 'Local curries', 'Traditional spices']
     },
     {
@@ -243,7 +243,7 @@ function Dining() {
               className="relative"
             >
               <img
-                src="/images/dining/dining-area-meal-presentation-bunny-bro.jpg"
+                src="/images/more/666493110.jpg"
                 alt="Authentic Sri Lankan dining setup at Mountain Breeze Galle"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />

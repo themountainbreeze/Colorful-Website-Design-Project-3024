@@ -35,25 +35,29 @@ function Home() {
   const packages = [
     {
       name: "Full Board",
-      price: "Rs. 21,500",
+      price: "$72",
+      priceLKR: "(Rs. 21,500)",
       description: "Complete experience with all meals and overnight stay",
       features: ["Welcome drinks", "All meals", "Overnight stay", "Amenities access"]
     },
     {
       name: "Cabana Only",
-      price: "Rs. 14,500",
+      price: "$49",
+      priceLKR: "(Rs. 14,500)",
       description: "Peaceful overnight stay with full amenities",
       features: ["Overnight stay", "Kitchenette access", "Wi-Fi", "Hot tub access"]
     },
     {
       name: "Night Out",
-      price: "Rs. 14,000",
+      price: "$47",
+      priceLKR: "(Rs. 14,000)",
       description: "Evening to morning experience (5PM-9AM)",
       features: ["Meals & drinks", "Evening ambiance", "Overnight stay"]
     },
     {
       name: "Day Out",
-      price: "Rs. 11,500",
+      price: "$39",
+      priceLKR: "(Rs. 11,500)",
       description: "Perfect day retreat (10AM-4PM)",
       features: ["Lunch & dessert", "Welcome drinks", "Day use amenities"]
     }
@@ -205,7 +209,8 @@ function Home() {
               >
                 <div className="p-6">
                   <h3 className="text-2xl font-playfair font-bold text-night-charcoal mb-2">{pkg.name}</h3>
-                  <div className="text-3xl font-bold text-emerald-canopy mb-3">{pkg.price}</div>
+                  <div className="text-3xl font-bold text-emerald-canopy mb-1">{pkg.price}</div>
+                  <div className="text-sm text-gray-500 mb-3">{pkg.priceLKR}</div>
                   <p className="text-gray-600 mb-4">{pkg.description}</p>
                   <ul className="space-y-2 mb-6">
                     {pkg.features.map((feature, i) => (

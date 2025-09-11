@@ -212,7 +212,7 @@ function About() {
               className="relative"
             >
               <img
-                src="/images/hero/sustainable-practices.jpg"
+                src="/images/more/742322813.jpg"
                 alt="Sustainable practices"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />

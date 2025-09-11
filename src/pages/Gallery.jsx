@@ -36,14 +36,14 @@ function Gallery() {
     },
     {
       id: 3,
-      src: '/images/dining/food-and-drink-setup.jpg',
+      src: '/images/more/666493110.jpg',
       alt: 'Dining setup and food presentation',
       category: 'dining',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 4,
-      src: '/images/romantic/romantic-evening-setup.jpg',
+      src: '/images/more/740566563.jpg',
       alt: 'Romantic evening setup with lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
@@ -64,21 +64,21 @@ function Gallery() {
     },
     {
       id: 7,
-      src: '/images/gallery/guest-cozy-interior-bunny-bro.jpg',
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
       alt: 'Guest photo of cozy interior',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 8,
-      src: '/images/gallery/guest-cabana-facilities-akash.jpg',
+      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM.jpeg',
       alt: 'Guest photo of cabana facilities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 9,
-      src: '/images/amenities/interior-details-amenities-akash.jpg',
+      src: '/images/more/666493113.jpg',
       alt: 'Interior details and amenities',
       category: 'amenities',
       credit: 'Guest photo via Google - Akash Snenevirathne'
@@ -113,28 +113,28 @@ function Gallery() {
     },
     {
       id: 14,
-      src: '/images/hero/evening-ambiance-latest-google.jpg',
+      src: '/images/more/742322809.jpg',
       alt: 'Evening ambiance with romantic lighting',
       category: 'romantic',
       credit: 'Google Maps - The Mountain Breeze Galle'
     },
     {
       id: 15,
-      src: '/images/dining/food-and-drink-google.jpg',
+      src: '/images/more/691481180.jpg',
       alt: 'Delicious food and drink presentation',
       category: 'dining',
       credit: 'Google Maps - The Mountain Breeze Galle'
     },
     {
       id: 16,
-      src: '/images/gallery/akash-interior-1.jpg',
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM (1).jpeg',
       alt: 'Comfortable interior with modern amenities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 17,
-      src: '/images/gallery/akash-interior-2.jpg',
+      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg',
       alt: 'Spacious cabana interior with natural light',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
@@ -155,7 +155,7 @@ function Gallery() {
     },
     {
       id: 20,
-      src: '/images/gallery/bunny-bro-interior-4.jpg',
+      src: '/images/more/713844668.jpg',
       alt: 'Comfortable cabana interior with mountain views',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
@@ -169,7 +169,7 @@ function Gallery() {
     },
     {
       id: 22,
-      src: '/images/gallery/bunny-bro-interior-6.jpg',
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM (1).jpeg',
       alt: 'Spacious interior with comfortable furnishings',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
@@ -211,8 +211,8 @@ function Gallery() {
     },
     {
       id: 28,
-      src: '/images/dining/candlelit-dinner-romantic.jpg',
-      alt: 'Romantic candlelit dinner setup by the beach',
+      src: '/images/more/666493089.jpg',
+      alt: 'Romantic candlelit dinner',
       category: 'romantic',
       credit: 'Wikimedia Commons'
     },
@@ -232,7 +232,7 @@ function Gallery() {
     },
     {
       id: 31,
-      src: '/images/gallery/property-exterior-3.jpg',
+      src: '/images/more/684461305.jpg',
       alt: 'Scenic property surroundings',
       category: 'exterior',
       credit: 'Property photo via Google Maps'

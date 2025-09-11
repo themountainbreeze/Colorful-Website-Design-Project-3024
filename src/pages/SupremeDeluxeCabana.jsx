@@ -37,12 +37,12 @@ function SupremeDeluxeCabana() {
       alt: 'Supreme Deluxe Cabana interior with king bed and sofa bed'
     },
     {
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM.jpeg',
-      alt: 'Ultimate luxury accommodation for 4 guests'
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM (1).jpeg',
+      alt: 'Premium amenities and mountain views'
     },
     {
       src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.28 AM.jpeg',
-      alt: 'Premium amenities and mountain views'
+      alt: 'Ultimate luxury accommodation for 4 guests'
     },
     {
       src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
@@ -349,19 +349,19 @@ function SupremeDeluxeCabana() {
                 title: 'Candlelit Dinner',
                 description: 'Private dinner setup with candles and flowers on your balcony or in the garden',
                 price: 'Available on request',
-                image: '/images/romantic/candlelit-dinner-1.jpg'
+                image: '/images/more/742322809.jpg'
               },
               {
                 title: 'Floral Arrangements',
                 description: 'Fresh flower decorations for your room and bed with rose petals',
                 price: 'Available on request',
-                image: '/images/romantic/floral-arrangement-1.jpg'
+                image: '/images/more/701837012.jpg'
               },
               {
                 title: 'Surprise Setup',
                 description: 'Custom surprise arrangements for proposals or special celebrations',
                 price: 'Available on request',
-                image: '/images/romantic/honeymoon-hero-2.jpg'
+                image: '/images/more/740566563.jpg'
               }
             ].map((addon, index) => (
               <motion.div
