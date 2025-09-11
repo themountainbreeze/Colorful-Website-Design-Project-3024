@@ -197,7 +197,7 @@ function Footer() {
             <p className="text-gray-400 text-sm">
               Built with ❤️ by{' '}
               <a
-                href="https://charithhashana.com"
+                href="https://charithharshana.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-ceylon-gold hover:text-emerald-canopy transition-colors"
