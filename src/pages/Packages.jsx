@@ -13,7 +13,8 @@ function Packages() {
       id: 'full-board',
       name: 'Full Board',
       subtitle: 'Complete Experience',
-      basePrice: 21500,
+      basePrice: 72,
+      basePriceLKR: 21500,
       description: 'The ultimate getaway with all meals, overnight stay, and full amenities access.',
       checkIn: '10:00 AM or 5:00 PM',
       checkOut: '9:00 AM or 4:00 PM',
@@ -33,7 +34,8 @@ function Packages() {
       id: 'cabana-only',
       name: 'Cabana Only',
       subtitle: 'Pure Relaxation',
-      basePrice: 14500,
+      basePrice: 49,
+      basePriceLKR: 14500,
       description: 'Peaceful overnight stay with full access to amenities and facilities.',
       checkIn: '2:00 PM',
       checkOut: '10:00 AM',
@@ -52,7 +54,8 @@ function Packages() {
       id: 'night-out-meals',
       name: 'Night Out with Meals',
       subtitle: 'Evening Escape',
-      basePrice: 14000,
+      basePrice: 47,
+      basePriceLKR: 14000,
       description: 'Perfect evening retreat with dinner, overnight stay, and breakfast.',
       checkIn: '5:00 PM',
       checkOut: '9:00 AM',
@@ -71,7 +74,8 @@ function Packages() {
       id: 'night-out-only',
       name: 'Night Out Only',
       subtitle: 'Simple Stay',
-      basePrice: 8500,
+      basePrice: 29,
+      basePriceLKR: 8500,
       description: 'Comfortable overnight accommodation without meal packages.',
       checkIn: '5:00 PM',
       checkOut: '9:00 AM',
@@ -90,7 +94,8 @@ function Packages() {
       id: 'day-out-meals',
       name: 'Day Out with Meals',
       subtitle: 'Perfect Day Trip',
-      basePrice: 11500,
+      basePrice: 39,
+      basePriceLKR: 11500,
       description: 'Relaxing day retreat with lunch, dessert, and full facility access.',
       checkIn: '10:00 AM',
       checkOut: '4:00 PM',
@@ -109,7 +114,8 @@ function Packages() {
       id: 'day-out-only',
       name: 'Day Out Only',
       subtitle: 'Facilities Access',
-      basePrice: 7500,
+      basePrice: 25,
+      basePriceLKR: 7500,
       description: 'Day use of facilities without meal packages.',
       checkIn: '10:00 AM',
       checkOut: '4:00 PM',
@@ -128,10 +134,19 @@ function Packages() {
 
   const calculatePrice = (basePrice, guests) => {
     if (guests <= 2) return basePrice;
-    return basePrice + ((guests - 2) * 10000);
+    return basePrice + ((guests - 2) * 34); // $34 per extra guest (10000 LKR)
+  };
+
+  const calculatePriceLKR = (basePriceLKR, guests) => {
+    if (guests <= 2) return basePriceLKR;
+    return basePriceLKR + ((guests - 2) * 10000);
   };
 
   const formatPrice = (price) => {
+    return `$${price}`;
+  };
+
+  const formatPriceLKR = (price) => {
     return new Intl.NumberFormat('en-LK', {
       style: 'currency',
       currency: 'LKR',
@@ -266,7 +281,10 @@ function Packages() {
                     <span className="text-3xl font-bold text-emerald-canopy">
                       {formatPrice(calculatePrice(pkg.basePrice, selectedGuests))}
                     </span>
-                    <span className="text-gray-500 ml-2">for {selectedGuests} guests</span>
+                    <span className="text-sm text-gray-500 ml-2">
+                      ({formatPriceLKR(calculatePriceLKR(pkg.basePriceLKR, selectedGuests))})
+                    </span>
+                    <div className="text-gray-500 text-sm">for {selectedGuests} guests</div>
                   </div>
 
                   <p className="text-gray-600 mb-4">{pkg.description}</p>

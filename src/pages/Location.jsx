@@ -119,7 +119,7 @@ function Location() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w1200"
+            src="/images/hero/location-hero.jpg"
             alt="Location of Mountain Breeze"
             className="w-full h-full object-cover"
           />

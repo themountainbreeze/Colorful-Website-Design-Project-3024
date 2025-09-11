@@ -18,8 +18,8 @@ function Header() {
       href: '/cabanas',
       submenu: [
         { name: 'Overview', href: '/cabanas' },
-        { name: 'Mountain-View Cabana', href: '/cabanas/mountain-view' },
-        { name: 'Honeymoon Cabana', href: '/cabanas/honeymoon' }
+        { name: 'Luxury Cabana', href: '/cabanas/luxury' },
+        { name: 'Supreme Deluxe Cabana', href: '/cabanas/supreme-deluxe' }
       ]
     },
     { name: 'Packages', href: '/packages' },

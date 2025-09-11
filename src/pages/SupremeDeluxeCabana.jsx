@@ -8,45 +8,45 @@ import SafeIcon from '../common/SafeIcon';
 const { FiWifi, FiCoffee, FiTv, FiClock, FiUsers, FiHeart } = FiIcons;
 const { FaHotTub, FaPaw } = FaIcons;
 
-function HoneymoonCabana() {
+function SupremeDeluxeCabana() {
   const amenities = [
-    { icon: FiHeart, title: 'Romantic Decor', description: 'Custom romantic setups on request' },
-    { icon: FiWifi, title: 'Free Wi-Fi', description: 'High-speed internet throughout' },
-    { icon: FiCoffee, title: 'Private Balcony', description: 'Intimate outdoor space' },
-    { icon: FaHotTub, title: 'Hot Tub Access', description: 'Shared jacuzzi in garden' },
-    { icon: FiTv, title: 'Satellite TV', description: 'Entertainment channels' },
-    { icon: FaPaw, title: 'Pet-Friendly', description: 'Pets welcome at no extra charge' }
+    { icon: FiWifi, title: 'Fully Air-Conditioned', description: 'Ultimate climate controlled comfort' },
+    { icon: FiTv, title: 'Smart Android TV', description: 'Premium entertainment system' },
+    { icon: FiCoffee, title: 'Private Kitchen with Ingredients', description: 'Fully equipped kitchen' },
+    { icon: FaHotTub, title: 'Hot Water & Romantic Bath Tub', description: 'Luxurious bathing experience' },
+    { icon: FiUsers, title: 'Accommodates 4 Guests', description: 'King bed + Sofa bed' },
+    { icon: FiHeart, title: 'Stunning Mountain View', description: 'Breathtaking natural scenery' }
   ];
 
-  const romanticFeatures = [
-    'Candlelit dinner arrangements',
-    'Floral bed decorations',
-    'Soft ambient lighting',
-    'Private balcony dining',
-    'Anniversary surprise setups',
-    'Rose petal arrangements',
-    'Special occasion decorations',
-    'Intimate garden access',
-    'Romantic photo opportunities',
-    'Personalized touches'
+  const luxuryFeatures = [
+    'Deluxe king size bed',
+    'Comfortable sofa bed',
+    'Accommodates 4 guests',
+    'Smart Android TV',
+    'Private kitchen with ingredients',
+    'Free water bottle & parking',
+    'Stunning mountain view',
+    'Hot water & romantic bath tub',
+    'Fully air-conditioned comfort',
+    'Pet-friendly accommodation'
   ];
 
   const galleryImages = [
     {
-      src: '/images/romantic/honeymoon-hero-1.jpg',
-      alt: 'Honeymoon Cabana romantic exterior view'
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg',
+      alt: 'Supreme Deluxe Cabana interior with king bed and sofa bed'
     },
     {
-      src: '/images/romantic/honeymoon-hero-2.jpg',
-      alt: 'Intimate cabana setting with romantic ambiance'
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM.jpeg',
+      alt: 'Ultimate luxury accommodation for 4 guests'
     },
     {
-      src: '/images/romantic/honeymoon-hero-3.jpg',
-      alt: 'Beautiful romantic setup for couples'
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.28 AM.jpeg',
+      alt: 'Premium amenities and mountain views'
     },
     {
-      src: '/images/romantic/candlelit-dinner-1.jpg',
-      alt: 'Candlelit dinner romantic setup'
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
+      alt: 'Supreme Deluxe Cabana exterior and surroundings'
     }
   ];
 
@@ -61,13 +61,13 @@ function HoneymoonCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/romantic/honeymoon-hero-1.jpg"
-            alt="Honeymoon Cabana romantic setup"
+            src="/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg"
+            alt="Supreme Deluxe Cabana luxury accommodation"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
         </div>
-        
+
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <motion.h1
             initial={{ y: 50, opacity: 0 }}
@@ -75,7 +75,7 @@ function HoneymoonCabana() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-5xl md:text-7xl font-playfair font-bold mb-6"
           >
-            Honeymoon Cabana
+            Supreme Deluxe Cabana
           </motion.h1>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -83,8 +83,8 @@ function HoneymoonCabana() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-xl md:text-2xl mb-8 font-light"
           >
-            Designed for romance—soft lighting, intimate dinners, and dreamlike decor on request. 
-            Celebrate under the stars in your own private paradise.
+            The ultimate luxury experience with a deluxe king size bed and comfortable sofa bed.
+            Accommodates up to 4 guests with premium amenities and stunning mountain views.
           </motion.p>
           <motion.div
             initial={{ y: 50, opacity: 0 }}
@@ -93,12 +93,12 @@ function HoneymoonCabana() {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <a
-              href="https://wa.me/94775145131?text=Hello! I'd like to book the Honeymoon Cabana at The Mountain Breeze Galle Cabanas for a romantic getaway."
+              href="https://wa.me/94775145131?text=Hello! I'd like to book the Supreme Deluxe Cabana at The Mountain Breeze Galle Cabanas."
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gradient-to-r from-emerald-canopy to-ocean-teal text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
-              Book Romantic Getaway
+              Book Supreme Deluxe
             </a>
             <Link
               to="/packages"
@@ -237,11 +237,11 @@ function HoneymoonCabana() {
               viewport={{ once: true }}
             >
               <h3 className="text-3xl font-playfair font-bold text-night-charcoal mb-8">
-                Romance Package Includes
+                Supreme Deluxe Features
               </h3>
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <ul className="space-y-4">
-                  {romanticFeatures.map((feature, index) => (
+                  {luxuryFeatures.map((feature, index) => (
                     <motion.li
                       key={index}
                       initial={{ x: 30, opacity: 0 }}
@@ -437,4 +437,4 @@ function HoneymoonCabana() {
   );
 }
 
-export default HoneymoonCabana;
+export default SupremeDeluxeCabana;

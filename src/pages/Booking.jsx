@@ -11,7 +11,7 @@ function Booking() {
     phone: '',
     email: '',
     stayType: 'full-board',
-    cabana: 'mountain-view',
+    cabana: 'luxury',
     checkInDate: '',
     checkInTime: '14:00',
     checkOutDate: '',
@@ -25,17 +25,17 @@ function Booking() {
   });
 
   const stayTypes = [
-    { id: 'full-board', name: 'Full Board', price: 21500 },
-    { id: 'cabana-only', name: 'Cabana Only', price: 14500 },
-    { id: 'night-out-meals', name: 'Night Out with Meals', price: 14000 },
-    { id: 'night-out-only', name: 'Night Out Only', price: 8500 },
-    { id: 'day-out-meals', name: 'Day Out with Meals', price: 11500 },
-    { id: 'day-out-only', name: 'Day Out Only', price: 7500 }
+    { id: 'full-board', name: 'Full Board', price: 72, priceLKR: 21500 },
+    { id: 'cabana-only', name: 'Cabana Only', price: 49, priceLKR: 14500 },
+    { id: 'night-out-meals', name: 'Night Out with Meals', price: 47, priceLKR: 14000 },
+    { id: 'night-out-only', name: 'Night Out Only', price: 29, priceLKR: 8500 },
+    { id: 'day-out-meals', name: 'Day Out with Meals', price: 39, priceLKR: 11500 },
+    { id: 'day-out-only', name: 'Day Out Only', price: 25, priceLKR: 7500 }
   ];
 
   const cabanas = [
-    { id: 'mountain-view', name: 'Mountain-View Cabana' },
-    { id: 'honeymoon', name: 'Honeymoon Cabana' }
+    { id: 'luxury', name: 'Luxury Cabana' },
+    { id: 'supreme-deluxe', name: 'Supreme Deluxe Cabana' }
   ];
 
   const breakfastOptions = [
@@ -71,11 +71,22 @@ function Booking() {
   const calculateTotalPrice = () => {
     const basePrice = stayTypes.find(type => type.id === formData.stayType)?.price || 0;
     const totalGuests = parseInt(formData.adults) + parseInt(formData.children);
-    const extraGuestPrice = totalGuests > 2 ? (totalGuests - 2) * 10000 : 0;
+    const extraGuestPrice = totalGuests > 2 ? (totalGuests - 2) * 34 : 0; // $34 per extra guest
     return basePrice + extraGuestPrice;
   };
 
+  const calculateTotalPriceLKR = () => {
+    const basePriceLKR = stayTypes.find(type => type.id === formData.stayType)?.priceLKR || 0;
+    const totalGuests = parseInt(formData.adults) + parseInt(formData.children);
+    const extraGuestPriceLKR = totalGuests > 2 ? (totalGuests - 2) * 10000 : 0;
+    return basePriceLKR + extraGuestPriceLKR;
+  };
+
   const formatPrice = (price) => {
+    return `$${price}`;
+  };
+
+  const formatPriceLKR = (price) => {
     return new Intl.NumberFormat('en-LK', {
       style: 'currency',
       currency: 'LKR',
@@ -104,7 +115,7 @@ Add-ons: ${formData.addOns.length > 0 ? formData.addOns.join(', ') : 'None'}
 Pet: ${formData.petTraveling === 'yes' ? 'Yes' : 'No'}
 Special Requests: ${formData.specialRequests || 'None'}
 
-Total Price: ${formatPrice(totalPrice)}
+Total Price: ${formatPrice(totalPrice)} (${formatPriceLKR(calculateTotalPriceLKR())})
 
 Please confirm availability and provide payment instructions.`;
 
@@ -129,7 +140,7 @@ Please confirm availability and provide payment instructions.`;
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNYq_lAQlNwYMdzkA3ug0TCN6QSUz8pfEH0uoOl=w1200"
+            src="/images/hero/booking-hero.jpg"
             alt="Book your stay"
             className="w-full h-full object-cover"
           />
@@ -238,7 +249,7 @@ Please confirm availability and provide payment instructions.`;
                     >
                       {stayTypes.map(type => (
                         <option key={type.id} value={type.id}>
-                          {type.name} - {formatPrice(type.price)}
+                          {type.name} - {formatPrice(type.price)} ({formatPriceLKR(type.priceLKR)})
                         </option>
                       ))}
                     </select>
@@ -463,17 +474,23 @@ Please confirm availability and provide payment instructions.`;
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Base Package ({formData.adults + formData.children} guests)</span>
-                    <span className="font-semibold">{formatPrice(calculateTotalPrice())}</span>
+                    <div className="text-right">
+                      <span className="font-semibold">{formatPrice(calculateTotalPrice())}</span>
+                      <div className="text-sm text-gray-500">({formatPriceLKR(calculateTotalPriceLKR())})</div>
+                    </div>
                   </div>
                   {parseInt(formData.adults) + parseInt(formData.children) > 2 && (
                     <div className="flex justify-between text-sm text-gray-600">
-                      <span>Extra guests ({parseInt(formData.adults) + parseInt(formData.children) - 2} × Rs. 10,000)</span>
-                      <span>+{formatPrice((parseInt(formData.adults) + parseInt(formData.children) - 2) * 10000)}</span>
+                      <span>Extra guests ({parseInt(formData.adults) + parseInt(formData.children) - 2} × $34)</span>
+                      <span>+{formatPrice((parseInt(formData.adults) + parseInt(formData.children) - 2) * 34)}</span>
                     </div>
                   )}
                   <div className="border-t pt-2 flex justify-between text-lg font-bold text-emerald-canopy">
                     <span>Total</span>
-                    <span>{formatPrice(calculateTotalPrice())}</span>
+                    <div className="text-right">
+                      <span>{formatPrice(calculateTotalPrice())}</span>
+                      <div className="text-sm text-gray-500 font-normal">({formatPriceLKR(calculateTotalPriceLKR())})</div>
+                    </div>
                   </div>
                 </div>
               </div>

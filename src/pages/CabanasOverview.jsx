@@ -5,38 +5,38 @@ import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
 
-const { FiWifi, FiCoffee, FiHeart } = FiIcons;
+const { FiWifi, FiCoffee, FiHeart, FiUsers } = FiIcons;
 const { FaHotTub } = FaIcons;
 
 function CabanasOverview() {
   const cabanas = [
     {
-      id: 'mountain-view',
-      name: 'Mountain-View Cabana',
-      subtitle: 'Nature\'s Embrace',
-      image: '/images/cabanas/mountain-view-cabana-interior.jpg',
-      description: 'Awake to birdsong and breeze on your private balcony. With AC, Wi‑Fi, and a kitchenette, it\'s effortless comfort amid green vistas.',
+      id: 'luxury',
+      name: 'Luxury Cabana',
+      subtitle: 'Premium Comfort',
+      image: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM.jpeg',
+      description: 'Experience luxury with two comfortable beds - one deluxe king bed and one double bed. Perfect for families or groups of up to 4 guests seeking premium comfort.',
       features: [
-        { icon: FiCoffee, text: 'Balcony with garden views' },
+        { icon: FiCoffee, text: 'Deluxe king bed + Double bed' },
+        { icon: FiUsers, text: 'Accommodates 4 guests' },
         { icon: FiWifi, text: 'Free Wi-Fi & AC' },
-        { icon: FiCoffee, text: 'Private kitchenette' },
-        { icon: FaHotTub, text: 'Hot tub access' }
+        { icon: FaHotTub, text: 'Hot water & romantic bath tub' }
       ],
-      highlights: ['Perfect for couples', 'Mountain views', 'Peaceful setting', 'Modern amenities']
+      highlights: ['Two beds for 4 guests', 'Mountain views', 'Fully air-conditioned', 'Private kitchen']
     },
     {
-      id: 'honeymoon',
-      name: 'Honeymoon Cabana',
-      subtitle: 'Romance Redefined',
-      image: '/images/romantic/honeymoon-cabana-romantic-portrait.jpg',
-      description: 'Designed for romance—soft lighting, intimate dinners, and dreamlike decor on request. Celebrate under the stars.',
+      id: 'supreme-deluxe',
+      name: 'Supreme Deluxe Cabana',
+      subtitle: 'Ultimate Luxury',
+      image: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg',
+      description: 'The ultimate luxury experience with a deluxe king size bed and comfortable sofa bed. Accommodates up to 4 guests with premium amenities and stunning mountain views.',
       features: [
-        { icon: FiHeart, text: 'Romantic decor setups' },
-        { icon: FiWifi, text: 'Free Wi-Fi & AC' },
-        { icon: FiCoffee, text: 'Private balcony' },
-        { icon: FaHotTub, text: 'Hot tub access' }
+        { icon: FiCoffee, text: 'Deluxe king size bed + Sofa bed' },
+        { icon: FiUsers, text: 'Accommodates 4 guests' },
+        { icon: FiWifi, text: 'Free Wi-Fi & Smart Android TV' },
+        { icon: FaHotTub, text: 'Hot water & romantic bath tub' }
       ],
-      highlights: ['Candlelit dinners', 'Floral arrangements', 'Intimate lighting', 'Special occasions']
+      highlights: ['King bed + Sofa bed', 'Smart Android TV', 'Private kitchen with ingredients', 'Stunning mountain view']
     }
   ];
 
@@ -173,19 +173,21 @@ function CabanasOverview() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-night-charcoal mb-4">
-              Both Cabanas Include
+              Included Facilities
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Luxury amenities and personalized service in every stay
+              The Mountain Breeze Galle – More than just a luxury cabana, it's a romantic place that gives you an amazing feeling!
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: FiWifi, title: 'Free Wi-Fi', desc: 'High-speed internet throughout' },
-              { icon: FiCoffee, title: 'AC & Kitchenette', desc: 'Climate control & cooking facilities' },
-              { icon: FaHotTub, title: 'Hot Tub Access', desc: 'Shared jacuzzi in garden setting' },
-              { icon: FiHeart, title: 'Daily Housekeeping', desc: 'Fresh linens & daily cleaning' }
+              { icon: FiWifi, title: 'Fully Air-Conditioned Cabana', desc: 'Climate controlled comfort' },
+              { icon: FaHotTub, title: 'Hot Water & Romantic Bath Tub', desc: 'Luxurious bathing experience' },
+              { icon: FiWifi, title: 'Free WiFi & Smart Android TV', desc: 'Stay connected and entertained' },
+              { icon: FiCoffee, title: 'Private Kitchen with Ingredients', desc: 'Cook your own meals' },
+              { icon: FiCoffee, title: 'Free Water Bottle & Parking', desc: 'Complimentary amenities' },
+              { icon: FiHeart, title: 'Stunning Mountain View', desc: 'Breathtaking natural scenery' }
             ].map((feature, index) => (
               <motion.div
                 key={feature.title}

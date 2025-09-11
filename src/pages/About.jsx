@@ -49,7 +49,7 @@ function About() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w1200"
+            src="/images/hero/location-hero.jpg"
             alt="About Mountain Breeze"
             className="w-full h-full object-cover"
           />
@@ -114,7 +114,7 @@ function About() {
               className="relative"
             >
               <img
-                src="https://lh3.googleusercontent.com/p/AF1QipNYq_lAQlNwYMdzkA3ug0TCN6QSUz8pfEH0uoOl=w800"
+                src="/images/hero/about-property.jpg"
                 alt="Mountain Breeze property"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
@@ -212,7 +212,7 @@ function About() {
               className="relative"
             >
               <img
-                src="https://lh3.googleusercontent.com/geougc-cs/AB3l90Aw1xsXMSU6UYHCg0SltAuQUYtksKIS63Vht9em5nAsNgFSgpb_j0512foIy_vY-5uTTM_G24QpNY3wXIItpkZ2CoqowWvRnaWqgq6pRuoBuIG1Ugl3HSgLlXTq-LM1sxzTgc0x=w800"
+                src="/images/hero/sustainable-practices.jpg"
                 alt="Sustainable practices"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />

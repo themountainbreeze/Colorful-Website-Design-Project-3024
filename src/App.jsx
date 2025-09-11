@@ -6,8 +6,8 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import CabanasOverview from './pages/CabanasOverview';
-import MountainViewCabana from './pages/MountainViewCabana';
-import HoneymoonCabana from './pages/HoneymoonCabana';
+import LuxuryCabana from './pages/LuxuryCabana';
+import SupremeDeluxeCabana from './pages/SupremeDeluxeCabana';
 import Packages from './pages/Packages';
 import Amenities from './pages/Amenities';
 import Dining from './pages/Dining';
@@ -32,8 +32,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cabanas" element={<CabanasOverview />} />
-            <Route path="/cabanas/mountain-view" element={<MountainViewCabana />} />
-            <Route path="/cabanas/honeymoon" element={<HoneymoonCabana />} />
+            <Route path="/cabanas/luxury" element={<LuxuryCabana />} />
+            <Route path="/cabanas/supreme-deluxe" element={<SupremeDeluxeCabana />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/amenities" element={<Amenities />} />
             <Route path="/dining" element={<Dining />} />
