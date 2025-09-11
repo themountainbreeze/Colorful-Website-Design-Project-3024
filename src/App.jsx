@@ -22,6 +22,7 @@ import Experiences from './pages/Experiences';
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfConditions from './pages/TermsOfConditions';
+import TermsOfService from './pages/TermsOfService';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsOfConditions />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
           </Routes>
         </AnimatePresence>
         <Footer />

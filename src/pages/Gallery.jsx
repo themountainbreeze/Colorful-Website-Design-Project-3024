@@ -57,7 +57,7 @@ function Gallery() {
     },
     {
       id: 6,
-      src: '/images/hero/evening-ambiance-latest.jpg',
+      src: '/images/more/666497510.jpg',
       alt: 'Evening ambiance and garden lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
@@ -71,7 +71,7 @@ function Gallery() {
     },
     {
       id: 8,
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM.jpeg',
+      src: '/images/more/740566563.jpg',
       alt: 'Guest photo of cabana facilities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
@@ -106,7 +106,7 @@ function Gallery() {
     },
     {
       id: 13,
-      src: '/images/hero/exterior-landscape-google.jpg',
+      src: '/images/more/666490021.jpg',
       alt: 'Beautiful exterior landscape and garden views',
       category: 'exterior',
       credit: 'Google Maps - The Mountain Breeze Galle'
@@ -243,6 +243,13 @@ function Gallery() {
       alt: 'Elegant candlelit dinner arrangement',
       category: 'romantic',
       credit: 'Wikimedia Commons'
+    },
+    {
+      id: 33,
+      src: '/images/more/742322813.jpg',
+      alt: 'Guest photo of cabana facilities',
+      category: 'cabanas',
+      credit: 'Guest photo via Google'
     }
   ];
 

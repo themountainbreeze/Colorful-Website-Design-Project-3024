@@ -106,17 +106,38 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            © 2025 The Mountain Breeze Galle Cabanas. All rights reserved.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/policies" className="text-gray-400 hover:text-ceylon-gold text-sm transition-colors">
-              Policies
-            </Link>
-            <Link to="/faqs" className="text-gray-400 hover:text-ceylon-gold text-sm transition-colors">
-              FAQs
-            </Link>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-4">
+            <p className="text-gray-400 text-sm">
+              © 2025 The Mountain Breeze Galle Cabanas. All rights reserved.
+            </p>
+            <div className="flex space-x-6 mt-4 md:mt-0">
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-ceylon-gold text-sm transition-colors">
+                Privacy Policy
+              </Link>
+              <Link to="/terms-of-service" className="text-gray-400 hover:text-ceylon-gold text-sm transition-colors">
+                Terms of Service
+              </Link>
+              <Link to="/policies" className="text-gray-400 hover:text-ceylon-gold text-sm transition-colors">
+                Policies
+              </Link>
+              <Link to="/faqs" className="text-gray-400 hover:text-ceylon-gold text-sm transition-colors">
+                FAQs
+              </Link>
+            </div>
+          </div>
+          <div className="text-center">
+            <p className="text-gray-400 text-sm">
+              Built with ❤️ by{' '}
+              <a
+                href="https://charithhashana.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ceylon-gold hover:text-emerald-canopy transition-colors"
+              >
+                CH
+              </a>
+            </p>
           </div>
         </div>
       </div>

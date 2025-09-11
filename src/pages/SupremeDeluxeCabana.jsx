@@ -41,7 +41,7 @@ function SupremeDeluxeCabana() {
       alt: 'Premium amenities and mountain views'
     },
     {
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.28 AM.jpeg',
+      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM (1).jpeg',
       alt: 'Ultimate luxury accommodation for 4 guests'
     },
     {
