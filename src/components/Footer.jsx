@@ -92,7 +92,7 @@ function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <SafeIcon icon={FiMail} className="w-5 h-5 text-emerald-canopy" />
-                <span className="text-gray-300">themountainbreezegalle@gmail.com</span>
+                <span className="text-gray-300">contact@themountainbreezegalle.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <SafeIcon icon={FiMapPin} className="w-5 h-5 text-emerald-canopy mt-1" />

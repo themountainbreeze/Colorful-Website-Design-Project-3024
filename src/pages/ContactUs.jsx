@@ -71,8 +71,8 @@ function ContactUs() {
     {
       icon: FiMail,
       title: 'Email',
-      content: 'themountainbreezegalle@gmail.com',
-      link: 'mailto:themountainbreezegalle@gmail.com'
+      content: 'contact@themountainbreezegalle.com',
+      link: 'mailto:contact@themountainbreezegalle.com'
     },
     {
       icon: FiMapPin,

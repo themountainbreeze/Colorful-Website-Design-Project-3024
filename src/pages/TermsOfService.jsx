@@ -128,7 +128,7 @@ function TermsOfService() {
                 For questions about these terms, please contact us:
               </p>
               <div className="text-gray-600 space-y-2">
-                <p>📧 Email: info@themountainbreezegalle.com</p>
+                <p>📧 Email: contact@themountainbreezegalle.com</p>
                 <p>📱 WhatsApp: +94 77 514 5131</p>
                 <p>📍 Address: The Mountain Breeze Galle, Galle, Sri Lanka</p>
               </div>
