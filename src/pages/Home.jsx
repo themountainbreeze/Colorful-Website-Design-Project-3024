@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
@@ -9,6 +9,45 @@ const { FiStar, FiMapPin, FiWifi, FiCoffee } = FiIcons;
 const { FaPaw, FaHotTub } = FaIcons;
 
 function Home() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const heroImages = [
+    {
+      src: '/images/hero/cabana-exterior-landscape.jpg',
+      alt: 'The Mountain Breeze Galle Cabanas exterior'
+    },
+    {
+      src: '/images/gallery/akash-interior-3.jpg',
+      alt: 'Interior view with modern amenities'
+    },
+    {
+      src: '/images/hero/overview-all-landscape.jpg',
+      alt: 'Overview of all landscape and facilities'
+    },
+    {
+      src: '/images/hero/742322809.jpg',
+      alt: 'Beautiful property views'
+    },
+    {
+      src: '/images/hero/742322813.jpg',
+      alt: 'Scenic mountain and garden views'
+    },
+    {
+      src: '/images/hero/mountain-view-cabana-interior.jpg',
+      alt: 'Mountain view cabana interior'
+    }
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) =>
+        (prevIndex + 1) % heroImages.length
+      );
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(interval);
+  }, [heroImages.length]);
+
   const valueProps = [
     {
       icon: FiCoffee,
@@ -91,12 +130,40 @@ function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src="/images/hero/cabana-exterior-landscape.jpg"
-            alt="The Mountain Breeze Galle Cabanas exterior"
-            className="w-full h-full object-cover"
-          />
+          {heroImages.map((image, index) => (
+            <motion.img
+              key={index}
+              src={image.src}
+              alt={image.alt}
+              className="w-full h-full object-cover absolute inset-0"
+              initial={{ opacity: 0 }}
+              animate={{
+                opacity: index === currentImageIndex ? 1 : 0,
+                scale: index === currentImageIndex ? 1.05 : 1
+              }}
+              transition={{
+                duration: 1.5,
+                ease: "easeInOut"
+              }}
+            />
+          ))}
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30"></div>
+        </div>
+
+        {/* Image indicators */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+          {heroImages.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentImageIndex(index)}
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                index === currentImageIndex
+                  ? 'bg-white scale-125'
+                  : 'bg-white/50 hover:bg-white/75'
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
         </div>
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">

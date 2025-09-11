@@ -43,7 +43,7 @@ function Gallery() {
     },
     {
       id: 4,
-      src: '/images/more/740566563.jpg',
+      src: '/images/cabanas/luxury/WhatsApp-Image-2025-09-11-at-8.13.53-AM-(1).jpeg',
       alt: 'Romantic evening setup with lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
@@ -141,7 +141,7 @@ function Gallery() {
     },
     {
       id: 18,
-      src: '/images/gallery/bunny-bro-interior-2.jpg',
+      src: '/images/gallery/akash-interior-3.jpg',
       alt: 'Cozy interior setup with comfortable seating',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
