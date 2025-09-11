@@ -72,8 +72,8 @@ function Gallery() {
     {
       id: 8,
       src: '/images/more/740566563.jpg',
-      alt: 'Guest photo of cabana facilities',
-      category: 'cabanas',
+      alt: 'Romantic evening setup with lighting',
+      category: 'romantic',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
@@ -88,7 +88,7 @@ function Gallery() {
       src: '/images/exterior/garden-outdoor-spaces-bunny-bro.jpg',
       alt: 'Garden and outdoor spaces',
       category: 'exterior',
-      credit: 'Guest photo via Google - Bunny bro'
+      credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 11,
@@ -155,7 +155,7 @@ function Gallery() {
     },
     {
       id: 20,
-      src: '/images/more/713844668.jpg',
+      src: '/images/more/720702958.jpg',
       alt: 'Comfortable cabana interior with mountain views',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
@@ -244,13 +244,7 @@ function Gallery() {
       category: 'romantic',
       credit: 'Wikimedia Commons'
     },
-    {
-      id: 33,
-      src: '/images/more/742322813.jpg',
-      alt: 'Guest photo of cabana facilities',
-      category: 'cabanas',
-      credit: 'Guest photo via Google'
-    }
+
   ];
 
   const filteredImages = selectedCategory === 'all' 

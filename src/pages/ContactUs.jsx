@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
+import { sendContactEmail } from '../api/contact';
+import TawkToChat from '../components/TawkToChat';
 
 const { FiPhone, FiMail, FiMapPin, FiClock, FiSend } = FiIcons;
 const { FaWhatsapp, FaFacebook, FaInstagram } = FaIcons;
@@ -34,23 +36,23 @@ function ContactUs() {
     setSubmitStatus(null);
 
     try {
-      // TODO: Implement Resend API integration
-      console.log('Form data:', formData);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        checkIn: '',
-        checkOut: '',
-        guests: '2'
-      });
+      const result = await sendContactEmail(formData);
+
+      if (result.success) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: '',
+          checkIn: '',
+          checkOut: '',
+          guests: '2'
+        });
+      } else {
+        throw new Error(result.error || 'Failed to send email');
+      }
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmitStatus('error');
@@ -93,6 +95,7 @@ function ContactUs() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <TawkToChat />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
