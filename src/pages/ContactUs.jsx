@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
-import { sendContactEmail } from '../api/contact';
 import TawkToChat from '../components/TawkToChat';
 
 const { FiPhone, FiMail, FiMapPin, FiClock, FiSend } = FiIcons;
@@ -36,9 +35,18 @@ function ContactUs() {
     setSubmitStatus(null);
 
     try {
-      const result = await sendContactEmail(formData);
+      // Call Netlify function for contact form submission
+      const response = await fetch('/.netlify/functions/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-      if (result.success) {
+      const result = await response.json();
+
+      if (response.ok && result.success) {
         setSubmitStatus('success');
         setFormData({
           name: '',
