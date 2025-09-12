@@ -63,13 +63,6 @@ function Dining() {
     >
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
-        <div className="absolute inset-0 opacity-20">
-          <img
-            src="/images/hero/mountain-breeze-galle-dining-hero.jpg"
-            alt="Dining at Mountain Breeze"
-            className="w-full h-full object-cover"
-          />
-        </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1
             initial={{ y: 50, opacity: 0 }}
@@ -243,7 +236,7 @@ function Dining() {
               className="relative"
             >
               <img
-                src="/images/more/666493110.jpg"
+                src="/images/more/mountain-breeze-galle-authentic-dining-experience.jpg"
                 alt="Authentic Sri Lankan dining setup at Mountain Breeze Galle"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />

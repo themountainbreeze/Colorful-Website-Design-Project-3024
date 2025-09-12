@@ -14,7 +14,7 @@ function CabanasOverview() {
       id: 'luxury',
       name: 'Luxury Cabana',
       subtitle: 'Premium Comfort',
-      image: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-mountain-view.jpeg',
+      image: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg',
       description: 'Experience luxury with two comfortable beds - one deluxe king bed and one double bed. Perfect for families or groups of up to 4 guests seeking premium comfort.',
       features: [
         { icon: FiCoffee, text: 'Deluxe king bed + Double bed' },
@@ -28,7 +28,7 @@ function CabanasOverview() {
       id: 'supreme-deluxe',
       name: 'Supreme Deluxe Cabana',
       subtitle: 'Ultimate Luxury',
-      image: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-king-bed-sofa.jpeg',
+      image: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-smart-tv-setup.jpeg',
       description: 'The ultimate luxury experience with a deluxe king size bed and comfortable sofa bed. Accommodates up to 4 guests with premium amenities and stunning mountain views.',
       features: [
         { icon: FiCoffee, text: 'Deluxe king size bed + Sofa bed' },
@@ -49,20 +49,6 @@ function CabanasOverview() {
     >
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
-        <div className="absolute inset-0 opacity-20">
-          <div className="grid grid-cols-2 h-full">
-            <img
-              src="/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg"
-              alt="Supreme Deluxe Cabana"
-              className="w-full h-full object-cover"
-            />
-            <img
-              src="/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg"
-              alt="Luxury Cabana"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1
             initial={{ y: 50, opacity: 0 }}
