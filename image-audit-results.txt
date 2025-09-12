@@ -1,0 +1,160 @@
+IMAGE AUDIT RESULTS - The Mountain Breeze Galle Website
+=======================================================
+
+REFERENCED IMAGES (Found in codebase):
+=====================================
+
+Header/Logo:
+- /images/logo/mountain-breeze-galle-logo.png
+
+Home Page Hero Images:
+- /images/hero/cabana-exterior-landscape.jpg
+- /images/hero/overview-all-landscape.jpg
+- /images/hero/742322809.jpg
+- /images/hero/742322813.jpg
+- /images/hero/mountain-view-cabana-interior.jpg
+
+Other Hero Images:
+- /images/hero/location-hero.jpg (About, Location)
+- /images/hero/about-property.jpg (About)
+- /images/hero/booking-hero.jpg (Booking)
+- /images/hero/dining-hero.jpg (Dining)
+
+Cabana Images:
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.11.27 AM.jpeg
+- /images/cabanas/luxury/1ebcf2e0-22e3-4179-a040-e8e0377ed897.jfif
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM.jpeg
+- /images/cabanas/luxury/WhatsApp-Image-2025-09-11-at-8.13.53-AM-(1).jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM (1).jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM (1).jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.13.52 AM.jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.13.53 AM.jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.13.54 AM.jpeg
+- /images/cabanas/mountain-view-cabana-interior.jpg
+
+Dining Images:
+- /images/more/691481180.jpg (Full English breakfast)
+- /images/more/666493113.jpg (Asian breakfast)
+- /images/dining/halal-breakfast-new.jpg
+- /images/more/666493110.jpg (Dining setup)
+- /images/dining/dining-area-meal-presentation-bunny-bro.jpg
+- /images/dining/candle-light-dinner-setup.jpg
+
+Experience Images:
+- /images/experiences/galle-lighthouse.jpg
+- /images/experiences/japanese-peace-pagoda.jpg
+- /images/experiences/jungle-beach.jpg
+- /images/experiences/koggala-lake.jpg
+- /images/experiences/tea-plantation.jpg
+- /images/experiences/turtle-hatchery.jpg
+
+Gallery Images:
+- /images/exterior/garden-outdoor-spaces-bunny-bro.jpg
+- /images/exterior/peaceful-garden-setting-nimesha.jpg
+- /images/gallery/akash-interior-3.jpg
+- /images/gallery/bunny-bro-interior-1.jpg
+- /images/gallery/bunny-bro-interior-3.jpg
+- /images/gallery/bunny-bro-interior-5.jpg
+- /images/gallery/nimesha-exterior-1.jpg
+- /images/gallery/nimesha-exterior-3.jpg
+- /images/gallery/nimesha-exterior-4.jpg
+- /images/gallery/property-exterior-1.jpg
+- /images/gallery/property-exterior-2.jpg
+
+More Images:
+- /images/more/666490021.jpg
+- /images/more/666493089.jpg
+- /images/more/666497510.jpg
+- /images/more/684461305.jpg
+- /images/more/720702958.jpg
+- /images/more/740566563.jpg
+- /images/more/742322809.jpg
+- /images/more/742322813.jpg
+- /images/more/701837012.jpg
+
+Package Images:
+- /images/packages/night-out-only.jpg
+
+Romantic Images:
+- /images/romantic/candlelit-dinner-2.jpg
+
+UNUSED IMAGES (Not referenced in codebase):
+==========================================
+
+Amenities:
+- /images/amenities/interior-details-amenities-akash.jpg
+
+Cabanas Luxury (Unused):
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM (1).jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM (2).jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.54 AM.jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.54 AM (1).jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.55 AM.jpeg
+- /images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.55 AM (1).jpeg
+
+Cabanas Supreme Deluxe (Unused):
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM.jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM (2).jpeg
+- /images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.28 AM.jpeg
+
+Dining (Unused):
+- /images/dining/authentic-sri-lankan-cuisine.jpg
+- /images/dining/candlelit-dinner-romantic.jpg
+- /images/dining/food-and-drink-google.jpg
+- /images/dining/food-and-drink-setup.jpg
+- /images/dining/full-english-breakfast.jpg
+- /images/dining/full-english-breakfast-new.jpg (corrupted file)
+- /images/dining/halal-breakfast.jpg
+
+Gallery (Unused):
+- /images/gallery/akash-interior-1.jpg
+- /images/gallery/akash-interior-2.jpg
+- /images/gallery/bunny-bro-interior-2.jpg
+- /images/gallery/bunny-bro-interior-4.jpg
+- /images/gallery/bunny-bro-interior-6.jpg
+- /images/gallery/guest-cabana-facilities-akash.jpg
+- /images/gallery/guest-cozy-interior-bunny-bro.jpg
+- /images/gallery/nimesha-exterior-2.jpg
+- /images/gallery/property-exterior-3.jpg
+
+Hero (Unused):
+- /images/hero/evening-ambiance-latest.jpg
+- /images/hero/evening-ambiance-latest-google.jpg
+- /images/hero/evening-ambiance-romantic.jpg
+- /images/hero/exterior-landscape-google.jpg
+- /images/hero/overview-all-landscape-google.jpg
+- /images/hero/sustainable-practices.jpg
+
+More (Unused):
+- /images/more/666493089.jpg (duplicate - used in gallery)
+- /images/more/713844668.jpg
+- /images/more/740566053.jpg
+
+Packages (Unused):
+- /images/packages/night-out-meals.jpg
+- /images/packages/night-out-meals-2.jpg
+
+Romantic (Unused):
+- /images/romantic/candlelit-dinner-1.jpg
+- /images/romantic/candlelit-dinner-3.jpg
+- /images/romantic/floral-arrangement-1.jpg
+- /images/romantic/floral-arrangement-2.jpg
+- /images/romantic/honeymoon-cabana-romantic-portrait.jpg
+- /images/romantic/honeymoon-hero-1.jpg
+- /images/romantic/honeymoon-hero-2.jpg
+- /images/romantic/honeymoon-hero-3.jpg
+- /images/romantic/romantic-evening-setup.jpg
+
+TOTAL IMAGES: 90
+REFERENCED IMAGES: 56
+UNUSED IMAGES: 34
+
+CORRUPTED/PROBLEMATIC FILES:
+===========================
+- /images/dining/full-english-breakfast-new.jpg (contains HTML error page)

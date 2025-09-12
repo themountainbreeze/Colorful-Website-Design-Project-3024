@@ -10,19 +10,19 @@ function Dining() {
     {
       name: 'Full English/Irish Breakfast',
       description: 'Traditional hearty breakfast featuring eggs, bacon, sausages, baked beans, grilled tomatoes, and toast. Perfect for starting your day with energy.',
-      image: '/images/more/691481180.jpg',
+      image: '/images/more/mountain-breeze-galle-full-english-breakfast.jpg',
       highlights: ['Farm-fresh eggs', 'Local bacon & sausages', 'Homemade bread', 'Fresh tomatoes']
     },
     {
       name: 'Asian Breakfast',
       description: 'Authentic Sri Lankan breakfast specialties including string hoppers, coconut roti, curry, and traditional accompaniments.',
-      image: '/images/more/666493113.jpg',
+      image: '/images/more/mountain-breeze-galle-asian-breakfast-specialties.jpg',
       highlights: ['String hoppers', 'Coconut roti', 'Local curries', 'Traditional spices']
     },
     {
       name: 'Halal Breakfast',
       description: 'Halal-certified breakfast options prepared according to Islamic dietary laws, featuring fresh and flavorful dishes.',
-      image: '/images/dining/halal-breakfast-new.jpg',
+      image: '/images/dining/mountain-breeze-galle-halal-breakfast-sri-lankan.jpg',
       highlights: ['Halal certified', 'Fresh ingredients', 'Traditional flavors', 'Dietary compliance']
     }
   ];

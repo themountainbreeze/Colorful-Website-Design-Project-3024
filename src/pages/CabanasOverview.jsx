@@ -14,7 +14,7 @@ function CabanasOverview() {
       id: 'luxury',
       name: 'Luxury Cabana',
       subtitle: 'Premium Comfort',
-      image: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM.jpeg',
+      image: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-mountain-view.jpeg',
       description: 'Experience luxury with two comfortable beds - one deluxe king bed and one double bed. Perfect for families or groups of up to 4 guests seeking premium comfort.',
       features: [
         { icon: FiCoffee, text: 'Deluxe king bed + Double bed' },
@@ -28,7 +28,7 @@ function CabanasOverview() {
       id: 'supreme-deluxe',
       name: 'Supreme Deluxe Cabana',
       subtitle: 'Ultimate Luxury',
-      image: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg',
+      image: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-king-bed-sofa.jpeg',
       description: 'The ultimate luxury experience with a deluxe king size bed and comfortable sofa bed. Accommodates up to 4 guests with premium amenities and stunning mountain views.',
       features: [
         { icon: FiCoffee, text: 'Deluxe king size bed + Sofa bed' },

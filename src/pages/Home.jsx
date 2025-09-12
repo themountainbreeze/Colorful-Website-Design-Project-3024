@@ -13,24 +13,24 @@ function Home() {
 
   const heroImages = [
     {
-      src: '/images/hero/cabana-exterior-landscape.jpg',
-      alt: 'The Mountain Breeze Galle Cabanas exterior'
+      src: '/images/hero/mountain-breeze-galle-cabana-exterior-landscape.jpg',
+      alt: 'The Mountain Breeze Galle Cabanas luxury exterior and garden landscape'
     },
     {
-      src: '/images/hero/overview-all-landscape.jpg',
-      alt: 'Overview of all landscape and facilities'
+      src: '/images/hero/mountain-breeze-galle-overview-landscape.jpg',
+      alt: 'Mountain Breeze Galle Cabanas overview of all facilities and mountain landscape'
     },
     {
-      src: '/images/hero/742322809.jpg',
-      alt: 'Beautiful property views'
+      src: '/images/hero/mountain-breeze-galle-romantic-evening-setup.jpg',
+      alt: 'Mountain Breeze Galle romantic evening setup with candlelit ambiance'
     },
     {
-      src: '/images/hero/742322813.jpg',
-      alt: 'Scenic mountain and garden views'
+      src: '/images/hero/mountain-breeze-galle-scenic-mountain-garden-views.jpg',
+      alt: 'Mountain Breeze Galle scenic mountain and tropical garden views'
     },
     {
-      src: '/images/hero/mountain-view-cabana-interior.jpg',
-      alt: 'Mountain view cabana interior'
+      src: '/images/hero/mountain-breeze-galle-mountain-view-cabana-interior.jpg',
+      alt: 'Mountain Breeze Galle mountain view cabana luxury interior'
     }
   ];
 

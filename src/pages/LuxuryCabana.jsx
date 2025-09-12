@@ -33,20 +33,20 @@ function LuxuryCabana() {
 
   const galleryImages = [
     {
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM (1).jpeg',
-      alt: 'Luxury cabana interior with deluxe king bed and double bed'
+      src: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-interior-beds.jpeg',
+      alt: 'Mountain Breeze Galle Luxury Cabana interior with deluxe king bed and double bed'
     },
     {
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg',
-      alt: 'Spacious luxury cabana accommodating up to 4 guests'
+      src: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-spacious-interior.jfif',
+      alt: 'Mountain Breeze Galle spacious luxury cabana accommodating up to 4 guests'
     },
     {
-      src: '/images/more/742322813.jpg',
-      alt: 'Luxury cabana exterior and garden views'
+      src: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg',
+      alt: 'Mountain Breeze Galle Luxury Cabana exterior and tropical garden views'
     },
     {
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.55 AM.jpeg',
-      alt: 'Premium amenities and mountain views in luxury cabana'
+      src: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-amenities.jpeg',
+      alt: 'Mountain Breeze Galle Luxury Cabana premium amenities and mountain views'
     }
   ];
 
@@ -61,8 +61,8 @@ function LuxuryCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.53 AM.jpeg"
-            alt="Luxury Cabana"
+            src="/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg"
+            alt="Mountain Breeze Galle Luxury Cabana exterior with tropical garden setting"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30"></div>

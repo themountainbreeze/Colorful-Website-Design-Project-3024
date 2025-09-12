@@ -48,7 +48,7 @@ function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src="/images/logo/mountain-breeze-galle-logo.png"
+              src="/images/logo/mountain-breeze-galle-cabanas-logo.png"
               alt="The Mountain Breeze Galle Cabanas"
               className="h-12 w-auto"
             />

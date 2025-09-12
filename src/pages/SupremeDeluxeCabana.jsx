@@ -33,20 +33,20 @@ function SupremeDeluxeCabana() {
 
   const galleryImages = [
     {
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg',
-      alt: 'Supreme Deluxe Cabana interior with king bed and sofa bed'
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-spacious-layout.jpeg',
+      alt: 'Mountain Breeze Galle Supreme Deluxe Cabana spacious interior with king bed and sofa bed'
     },
     {
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM (1).jpeg',
-      alt: 'Premium amenities and mountain views'
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-romantic-bath.jpeg',
+      alt: 'Mountain Breeze Galle Supreme Deluxe Cabana romantic bath tub and premium amenities'
     },
     {
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM (1).jpeg',
-      alt: 'Ultimate luxury accommodation for 4 guests'
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-ultimate-luxury.jpeg',
+      alt: 'Mountain Breeze Galle Supreme Deluxe Cabana ultimate luxury accommodation for 4 guests'
     },
     {
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
-      alt: 'Supreme Deluxe Cabana exterior and surroundings'
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-smart-tv-setup.jpeg',
+      alt: 'Mountain Breeze Galle Supreme Deluxe Cabana smart Android TV and modern amenities'
     }
   ];
 
@@ -61,8 +61,8 @@ function SupremeDeluxeCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.26 AM.jpeg"
-            alt="Supreme Deluxe Cabana luxury accommodation"
+            src="/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg"
+            alt="Mountain Breeze Galle Supreme Deluxe Cabana luxury accommodation exterior"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
@@ -349,19 +349,19 @@ function SupremeDeluxeCabana() {
                 title: 'Candlelit Dinner',
                 description: 'Private dinner setup with candles and flowers on your balcony or in the garden',
                 price: 'Available on request',
-                image: '/images/more/742322809.jpg'
+                image: '/images/more/mountain-breeze-galle-romantic-evening-candlelit-dinner.jpg'
               },
               {
                 title: 'Floral Arrangements',
                 description: 'Fresh flower decorations for your room and bed with rose petals',
                 price: 'Available on request',
-                image: '/images/more/701837012.jpg'
+                image: '/images/more/mountain-breeze-galle-floral-arrangement-romantic.jpg'
               },
               {
                 title: 'Surprise Setup',
                 description: 'Custom surprise arrangements for proposals or special celebrations',
                 price: 'Available on request',
-                image: '/images/more/740566563.jpg'
+                image: '/images/more/mountain-breeze-galle-surprise-celebration-setup.jpg'
               }
             ].map((addon, index) => (
               <motion.div
