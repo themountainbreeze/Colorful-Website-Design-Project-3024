@@ -50,11 +50,18 @@ function CabanasOverview() {
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
-          <img
-            src="https://lh3.googleusercontent.com/p/AF1QipNFJ7s18OqqIOZeqGk1ZVKIEnntyeULruVnl_q9=w1200"
-            alt="Mountain Breeze Cabanas"
-            className="w-full h-full object-cover"
-          />
+          <div className="grid grid-cols-2 h-full">
+            <img
+              src="/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg"
+              alt="Supreme Deluxe Cabana"
+              className="w-full h-full object-cover"
+            />
+            <img
+              src="/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg"
+              alt="Luxury Cabana"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1

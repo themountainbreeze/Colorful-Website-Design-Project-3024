@@ -22,224 +22,224 @@ function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: '/images/hero/cabana-exterior-landscape.jpg',
+      src: '/images/hero/mountain-breeze-galle-cabana-exterior-landscape.jpg',
       alt: 'Cabana exterior and garden views',
       category: 'exterior',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 2,
-      src: '/images/cabanas/mountain-view-cabana-interior.jpg',
+      src: '/images/cabanas/mountain-breeze-galle-mountain-view-cabana-cozy-interior.jpg',
       alt: 'Mountain-view cabana interior',
       category: 'cabanas',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 3,
-      src: '/images/more/666493110.jpg',
+      src: '/images/more/mountain-breeze-galle-authentic-dining-experience.jpg',
       alt: 'Dining setup and food presentation',
       category: 'dining',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 4,
-      src: '/images/cabanas/luxury/WhatsApp-Image-2025-09-11-at-8.13.53-AM-(1).jpeg',
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-ultimate-luxury.jpeg',
       alt: 'Romantic evening setup with lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 5,
-      src: '/images/hero/overview-all-landscape.jpg',
+      src: '/images/hero/mountain-breeze-galle-overview-landscape.jpg',
       alt: 'Garden and outdoor amenities',
       category: 'amenities',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 6,
-      src: '/images/more/666497510.jpg',
+      src: '/images/more/mountain-breeze-galle-food-presentation.jpg',
       alt: 'Evening ambiance and garden lighting',
       category: 'romantic',
       credit: 'The Mountain Breeze Galle'
     },
     {
       id: 7,
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg',
       alt: 'Guest photo of cozy interior',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 8,
-      src: '/images/more/740566563.jpg',
+      src: '/images/more/mountain-breeze-galle-surprise-celebration-setup.jpg',
       alt: 'Romantic evening setup with lighting',
       category: 'romantic',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 9,
-      src: '/images/more/666493113.jpg',
+      src: '/images/more/mountain-breeze-galle-asian-breakfast-specialties.jpg',
       alt: 'Interior details and amenities',
       category: 'amenities',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 10,
-      src: '/images/exterior/garden-outdoor-spaces-bunny-bro.jpg',
+      src: '/images/exterior/mountain-breeze-galle-garden-outdoor-spaces-guest-photo.jpg',
       alt: 'Garden and outdoor spaces',
       category: 'exterior',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 11,
-      src: '/images/exterior/peaceful-garden-setting-nimesha.jpg',
+      src: '/images/exterior/mountain-breeze-galle-peaceful-garden-setting-guest-photo.jpg',
       alt: 'Peaceful garden setting',
       category: 'exterior',
       credit: 'Guest photo via Google - Nimesha Thennakoon'
     },
     {
       id: 12,
-      src: '/images/dining/dining-area-meal-presentation-bunny-bro.jpg',
+      src: '/images/dining/mountain-breeze-galle-dining-area-authentic-meal-presentation.jpg',
       alt: 'Dining area and meal presentation',
       category: 'dining',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 13,
-      src: '/images/more/666490021.jpg',
+      src: '/images/more/mountain-breeze-galle-breakfast-dining-setup.jpg',
       alt: 'Beautiful exterior landscape and garden views',
       category: 'exterior',
       credit: 'Google Maps - The Mountain Breeze Galle'
     },
     {
       id: 14,
-      src: '/images/more/742322809.jpg',
+      src: '/images/more/mountain-breeze-galle-romantic-evening-candlelit-dinner.jpg',
       alt: 'Evening ambiance with romantic lighting',
       category: 'romantic',
       credit: 'Google Maps - The Mountain Breeze Galle'
     },
     {
       id: 15,
-      src: '/images/more/691481180.jpg',
+      src: '/images/more/mountain-breeze-galle-full-english-breakfast.jpg',
       alt: 'Delicious food and drink presentation',
       category: 'dining',
       credit: 'Google Maps - The Mountain Breeze Galle'
     },
     {
       id: 16,
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.27 AM (1).jpeg',
+      src: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-mountain-views.jpeg',
       alt: 'Comfortable interior with modern amenities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 17,
-      src: '/images/cabanas/luxury/WhatsApp Image 2025-09-11 at 8.13.52 AM (1).jpeg',
+      src: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-deluxe-king-bed.jpeg',
       alt: 'Spacious cabana interior with natural light',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 18,
-      src: '/images/gallery/akash-interior-3.jpg',
+      src: '/images/gallery/mountain-breeze-galle-cabana-interior-guest-photo-akash.jpg',
       alt: 'Cozy interior setup with comfortable seating',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 19,
-      src: '/images/gallery/bunny-bro-interior-3.jpg',
+      src: '/images/gallery/mountain-breeze-galle-comfortable-cabana-guest-photo-bunny-bro.jpg',
       alt: 'Interior view showcasing modern amenities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 20,
-      src: '/images/more/720702958.jpg',
+      src: '/images/more/mountain-breeze-galle-cozy-interior-setup.jpg',
       alt: 'Comfortable cabana interior with mountain views',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 21,
-      src: '/images/gallery/bunny-bro-interior-5.jpg',
+      src: '/images/gallery/mountain-breeze-galle-spacious-cabana-interior-guest-photo-bunny-bro.jpg',
       alt: 'Well-appointed interior with natural lighting',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 22,
-      src: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM (1).jpeg',
+      src: '/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-spacious-interior.jfif',
       alt: 'Spacious interior with comfortable furnishings',
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
     {
       id: 23,
-      src: '/images/gallery/akash-interior-3.jpg',
+      src: '/images/gallery/mountain-breeze-galle-cabana-interior-guest-photo-akash.jpg',
       alt: 'Modern cabana interior with excellent facilities',
       category: 'cabanas',
       credit: 'Guest photo via Google - Akash Snenevirathne'
     },
     {
       id: 24,
-      src: '/images/gallery/nimesha-exterior-1.jpg',
+      src: '/images/gallery/mountain-breeze-galle-exterior-garden-guest-photo-nimesha.jpg',
       alt: 'Beautiful exterior view of the property',
       category: 'exterior',
       credit: 'Guest photo via Google - Nimesha Thennakoon'
     },
     {
       id: 25,
-      src: '/images/gallery/property-exterior-1.jpg',
+      src: '/images/gallery/mountain-breeze-galle-property-exterior-landscape.jpg',
       alt: 'Beautiful property exterior view',
       category: 'exterior',
       credit: 'Property photo via Google Maps'
     },
     {
       id: 26,
-      src: '/images/gallery/nimesha-exterior-3.jpg',
+      src: '/images/gallery/mountain-breeze-galle-property-exterior-guest-photo-nimesha.jpg',
       alt: 'Peaceful garden setting with natural beauty',
       category: 'exterior',
       credit: 'Guest photo via Google - Nimesha Thennakoon'
     },
     {
       id: 27,
-      src: '/images/gallery/nimesha-exterior-4.jpg',
+      src: '/images/gallery/mountain-breeze-galle-beautiful-grounds-guest-photo-nimesha.jpg',
       alt: 'Scenic outdoor views and landscaping',
       category: 'exterior',
       credit: 'Guest photo via Google - Nimesha Thennakoon'
     },
     {
       id: 28,
-      src: '/images/more/666493089.jpg',
+      src: '/images/more/mountain-breeze-galle-traditional-sri-lankan-meal.jpg',
       alt: 'Romantic candlelit dinner',
       category: 'romantic',
       credit: 'Wikimedia Commons'
     },
     {
       id: 29,
-      src: '/images/dining/candle-light-dinner-setup.jpg',
+      src: '/images/dining/mountain-breeze-galle-candlelit-dinner-romantic-setup.jpg',
       alt: 'Elegant candle light dinner arrangement',
       category: 'romantic',
       credit: 'Wikimedia Commons'
     },
     {
       id: 30,
-      src: '/images/gallery/property-exterior-2.jpg',
+      src: '/images/gallery/mountain-breeze-galle-cabana-grounds-exterior.jpg',
       alt: 'Stunning property landscape view',
       category: 'exterior',
       credit: 'Property photo via Google Maps'
     },
     {
       id: 31,
-      src: '/images/more/684461305.jpg',
+      src: '/images/more/mountain-breeze-galle-evening-ambiance.jpg',
       alt: 'Scenic property surroundings',
       category: 'exterior',
       credit: 'Property photo via Google Maps'
     },
     {
       id: 32,
-      src: '/images/romantic/candlelit-dinner-2.jpg',
+      src: '/images/romantic/mountain-breeze-galle-romantic-candlelit-dinner-setup.jpg',
       alt: 'Elegant candlelit dinner arrangement',
       category: 'romantic',
       credit: 'Wikimedia Commons'
@@ -283,7 +283,7 @@ function Gallery() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/images/hero/overview-all-landscape.jpg"
+            src="/images/hero/mountain-breeze-galle-overview-landscape.jpg"
             alt="Mountain Breeze Gallery"
             className="w-full h-full object-cover"
           />

@@ -65,7 +65,7 @@ function Dining() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/images/hero/dining-hero.jpg"
+            src="/images/hero/mountain-breeze-galle-dining-hero.jpg"
             alt="Dining at Mountain Breeze"
             className="w-full h-full object-cover"
           />

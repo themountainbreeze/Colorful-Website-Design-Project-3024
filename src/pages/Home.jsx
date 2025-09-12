@@ -13,8 +13,8 @@ function Home() {
 
   const heroImages = [
     {
-      src: '/images/hero/mountain-breeze-galle-cabana-exterior-landscape.jpg',
-      alt: 'The Mountain Breeze Galle Cabanas luxury exterior and garden landscape'
+      src: '/images/hero/mountain-breeze-galle-scenic-mountain-garden-views.jpg',
+      alt: 'Mountain Breeze Galle scenic mountain and tropical garden views'
     },
     {
       src: '/images/hero/mountain-breeze-galle-overview-landscape.jpg',
@@ -25,8 +25,8 @@ function Home() {
       alt: 'Mountain Breeze Galle romantic evening setup with candlelit ambiance'
     },
     {
-      src: '/images/hero/mountain-breeze-galle-scenic-mountain-garden-views.jpg',
-      alt: 'Mountain Breeze Galle scenic mountain and tropical garden views'
+      src: '/images/hero/mountain-breeze-galle-cabana-exterior-landscape.jpg',
+      alt: 'The Mountain Breeze Galle Cabanas luxury exterior and garden landscape'
     },
     {
       src: '/images/hero/mountain-breeze-galle-mountain-view-cabana-interior.jpg',

@@ -49,7 +49,7 @@ function About() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/images/hero/location-hero.jpg"
+            src="/images/hero/mountain-breeze-galle-location-hero.jpg"
             alt="About Mountain Breeze"
             className="w-full h-full object-cover"
           />
@@ -114,7 +114,7 @@ function About() {
               className="relative"
             >
               <img
-                src="/images/hero/about-property.jpg"
+                src="/images/hero/mountain-breeze-galle-about-property.jpg"
                 alt="Mountain Breeze property"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
@@ -212,7 +212,7 @@ function About() {
               className="relative"
             >
               <img
-                src="/images/more/742322813.jpg"
+                src="/images/more/mountain-breeze-galle-scenic-mountain-garden-view.jpg"
                 alt="Sustainable practices"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />

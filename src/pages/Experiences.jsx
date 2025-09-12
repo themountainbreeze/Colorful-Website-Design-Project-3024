@@ -13,7 +13,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'Wander the UNESCO-era ramparts, snap photos of the iconic palm-framed Galle Lighthouse, explore boutiques and cafes, and visit museums like the National Maritime Museum inside the fort walls.',
       highlights: ['UNESCO World Heritage site', 'Historic lighthouse', 'Colonial architecture', 'Boutique shopping', 'Maritime museum'],
-      image: '/images/experiences/galle-lighthouse.jpg',
+      image: '/images/experiences/galle-lighthouse-unesco-fort-attraction.jpg',
       bestTime: 'Morning or late afternoon'
     },
     {
@@ -22,7 +22,7 @@ function Experiences() {
       duration: '1-2 hours',
       description: 'A serene white stupa perched atop Rumassala Hill with wide coastal views; built by Japanese Buddhist monks as a symbol of peace. Combine it with a short hike or a beach stop below.',
       highlights: ['Panoramic ocean views', 'Buddhist temple', 'Peaceful meditation', 'Rumassala Hill hike', 'Sunset views'],
-      image: '/images/experiences/japanese-peace-pagoda.jpg',
+      image: '/images/experiences/japanese-peace-pagoda-rumassala-hill-galle.jpg',
       bestTime: 'Sunset for best views'
     },
     {
@@ -31,7 +31,7 @@ function Experiences() {
       duration: '3-4 hours',
       description: 'Sheltered cove with calm, clear water; great for easy snorkeling from shore and spotting reef fish. Local dive/snorkel centers offer guided sessions and gear.',
       highlights: ['Crystal clear waters', 'Coral reef snorkeling', 'Tropical fish spotting', 'Beach relaxation', 'Equipment rental available'],
-      image: '/images/experiences/jungle-beach.jpg',
+      image: '/images/experiences/jungle-beach-unawatuna-snorkeling-galle.jpg',
       bestTime: 'Morning for calm waters'
     },
     {
@@ -40,7 +40,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'A scenic lake cruise through islets and mangroves, with stops at a temple island and a hands-on cinnamon demonstration at Cinnamon Island. Birdlife is abundant; tours range 2–3 hours.',
       highlights: ['Mangrove exploration', 'Cinnamon Island tour', 'Temple island visit', 'Bird watching', 'Traditional boat ride'],
-      image: '/images/experiences/koggala-lake.jpg',
+      image: '/images/experiences/koggala-lake-boat-safari-cinnamon-island.jpg',
       bestTime: 'Early morning or late afternoon'
     },
     {
@@ -49,7 +49,7 @@ function Experiences() {
       duration: '2-3 hours',
       description: 'Tour a low-country tea estate famed for "Virgin White Tea." Factory visit, tea fields walk, and tasting are typically included; many travelers pair it with Galle or Koggala excursions.',
       highlights: ['Virgin White Tea tasting', 'Tea plantation tour', 'Factory demonstration', 'Scenic tea fields', 'Educational experience'],
-      image: '/images/experiences/tea-plantation.jpg',
+      image: '/images/experiences/handunugoda-tea-estate-virgin-white-tea-galle.jpg',
       bestTime: 'Morning for factory operations'
     },
     {
@@ -58,7 +58,7 @@ function Experiences() {
       duration: '1-2 hours',
       description: 'A conservation-focused visit to see rescued turtles, learn about nesting and releases, and support protection efforts on Sri Lanka\'s south coast.',
       highlights: ['Turtle conservation', 'Baby turtle releases', 'Educational programs', 'Marine conservation', 'Photography opportunities'],
-      image: '/images/experiences/turtle-hatchery.jpg',
+      image: '/images/experiences/sea-turtle-hatchery-habaraduwa-conservation-galle.jpg',
       bestTime: 'Evening for turtle releases'
     }
   ];
@@ -95,7 +95,7 @@ function Experiences() {
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/images/experiences/galle-lighthouse.jpg"
+            src="/images/experiences/galle-lighthouse-unesco-fort-attraction.jpg"
             alt="Experiences near Mountain Breeze"
             className="w-full h-full object-cover"
           />

@@ -27,7 +27,7 @@ function Packages() {
         'Free Wi-Fi & amenities',
         'Daily housekeeping'
       ],
-      image: '/images/cabanas/supreme_deluxe/WhatsApp Image 2025-09-11 at 8.11.25 AM.jpeg',
+      image: '/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg',
       popular: true
     },
     {
@@ -48,7 +48,7 @@ function Packages() {
         'Daily housekeeping',
         'Garden access'
       ],
-      image: '/images/cabanas/mountain-view-cabana-interior.jpg'
+      image: '/images/cabanas/mountain-breeze-galle-mountain-view-cabana-cozy-interior.jpg'
     },
     {
       id: 'night-out-meals',
@@ -68,7 +68,7 @@ function Packages() {
         'Evening ambiance setup',
         'Free Wi-Fi'
       ],
-      image: '/images/more/742322809.jpg'
+      image: '/images/more/mountain-breeze-galle-romantic-evening-candlelit-dinner.jpg'
     },
     {
       id: 'night-out-only',
@@ -88,7 +88,7 @@ function Packages() {
         'Basic amenities',
         'Garden access'
       ],
-      image: '/images/packages/night-out-only.jpg'
+      image: '/images/packages/mountain-breeze-galle-night-out-package-cabana-only.jpg'
     },
     {
       id: 'day-out-meals',
@@ -108,7 +108,7 @@ function Packages() {
         'Free Wi-Fi',
         'Garden relaxation'
       ],
-      image: '/images/hero/overview-all-landscape.jpg'
+      image: '/images/hero/mountain-breeze-galle-overview-landscape.jpg'
     },
     {
       id: 'day-out-only',
@@ -128,7 +128,7 @@ function Packages() {
         'Basic amenities',
         'Relaxation areas'
       ],
-      image: '/images/gallery/bunny-bro-interior-1.jpg'
+      image: '/images/gallery/mountain-breeze-galle-cozy-cabana-interior-guest-photo-bunny-bro.jpg'
     }
   ];
 

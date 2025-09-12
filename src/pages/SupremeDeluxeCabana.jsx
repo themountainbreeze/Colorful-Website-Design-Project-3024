@@ -61,8 +61,8 @@ function SupremeDeluxeCabana() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg"
-            alt="Mountain Breeze Galle Supreme Deluxe Cabana luxury accommodation exterior"
+            src="/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-smart-tv-setup.jpeg"
+            alt="Mountain Breeze Galle Supreme Deluxe Cabana smart TV setup and modern amenities"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
