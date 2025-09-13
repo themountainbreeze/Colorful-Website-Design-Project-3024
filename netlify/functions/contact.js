@@ -83,10 +83,10 @@ export const handler = async (event, context) => {
     // Send email using Resend
     const result = await resend.emails.send({
       from: 'contact@themountainbreezegalle.com',
-      to: formData.email,
+      to: 'contact@themountainbreezegalle.com',
       subject: `New Contact Form Submission: ${formData.subject}`,
       html: emailContent,
-      replyTo: 'contact@themountainbreezegalle.com'
+      replyTo: formData.email
     });
 
     console.log('Email sent successfully:', result);
