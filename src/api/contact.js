@@ -39,10 +39,10 @@ export async function sendContactEmail(formData) {
 
     const result = await resend.emails.send({
       from: 'contact@themountainbreezegalle.com',
-      to: 'contact@themountainbreezegalle.com',
+      to: formData.email,
       subject: `New Contact Form Submission: ${formData.subject}`,
       html: emailContent,
-      replyTo: formData.email
+      replyTo: 'contact@themountainbreezegalle.com'
     });
 
     return { success: true, data: result };
