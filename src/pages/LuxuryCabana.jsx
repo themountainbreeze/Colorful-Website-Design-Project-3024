@@ -4,6 +4,9 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
+import SEOHead from '../components/SEO/SEOHead';
+import { getSEOConfig, generateBreadcrumbs } from '../utils/seoConfig';
+import { generateBreadcrumbSchema } from '../components/SEO/StructuredData';
 
 const { FiWifi, FiCoffee, FiTv, FiClock, FiUsers, FiMapPin } = FiIcons;
 const { FaHotTub, FaPaw } = FaIcons;
@@ -50,6 +53,9 @@ function LuxuryCabana() {
     }
   ];
 
+  const seoConfig = getSEOConfig('luxuryCabana');
+  const breadcrumbs = generateBreadcrumbs('/cabanas/luxury');
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -57,6 +63,14 @@ function LuxuryCabana() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <SEOHead
+        title={seoConfig.title}
+        description={seoConfig.description}
+        keywords={seoConfig.keywords}
+        canonicalUrl={seoConfig.canonicalUrl}
+        ogImage={seoConfig.ogImage}
+        structuredData={generateBreadcrumbSchema(breadcrumbs)}
+      />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

@@ -4,6 +4,9 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
+import SEOHead from '../components/SEO/SEOHead';
+import StructuredData, { organizationSchema, lodgingBusinessSchema } from '../components/SEO/StructuredData';
+import { getSEOConfig } from '../utils/seoConfig';
 
 const { FiStar, FiMapPin, FiWifi, FiCoffee } = FiIcons;
 const { FaPaw, FaHotTub } = FaIcons;
@@ -116,6 +119,8 @@ function Home() {
     }
   ];
 
+  const seoConfig = getSEOConfig('home');
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -123,6 +128,14 @@ function Home() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <SEOHead
+        title={seoConfig.title}
+        description={seoConfig.description}
+        keywords={seoConfig.keywords}
+        canonicalUrl={seoConfig.canonicalUrl}
+        ogImage={seoConfig.ogImage}
+        structuredData={[organizationSchema, lodgingBusinessSchema]}
+      />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

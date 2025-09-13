@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /cabanas
+Allow: /cabanas/luxury
+Allow: /cabanas/supreme-deluxe
+Allow: /packages
+Allow: /amenities
+Allow: /dining
+Allow: /gallery
+Allow: /reviews
+Allow: /location
+Allow: /booking
+Allow: /about
+Allow: /faqs
+Allow: /policies
+Allow: /experiences
+Allow: /contact
+
+# Allow CSS, JS, and images
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Sitemap location
+Sitemap: https://themountainbreezegalle.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

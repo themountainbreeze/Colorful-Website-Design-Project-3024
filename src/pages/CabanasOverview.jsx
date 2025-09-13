@@ -4,6 +4,9 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
+import SEOHead from '../components/SEO/SEOHead';
+import { getSEOConfig, generateBreadcrumbs } from '../utils/seoConfig';
+import { generateBreadcrumbSchema } from '../components/SEO/StructuredData';
 
 const { FiWifi, FiCoffee, FiHeart, FiUsers } = FiIcons;
 const { FaHotTub } = FaIcons;
@@ -40,6 +43,9 @@ function CabanasOverview() {
     }
   ];
 
+  const seoConfig = getSEOConfig('cabanas');
+  const breadcrumbs = generateBreadcrumbs('/cabanas');
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -47,6 +53,14 @@ function CabanasOverview() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <SEOHead
+        title={seoConfig.title}
+        description={seoConfig.description}
+        keywords={seoConfig.keywords}
+        canonicalUrl={seoConfig.canonicalUrl}
+        ogImage={seoConfig.ogImage}
+        structuredData={generateBreadcrumbSchema(breadcrumbs)}
+      />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

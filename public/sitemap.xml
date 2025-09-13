@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://themountainbreezegalle.com/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/hero/mountain-breeze-galle-overview-landscape.jpg</image:loc>
+      <image:title>The Mountain Breeze Galle Cabanas - Luxury Mountain View Cabanas</image:title>
+    </image:image>
+  </url>
+
+  <!-- Cabanas Overview -->
+  <url>
+    <loc>https://themountainbreezegalle.com/cabanas</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/cabanas/mountain-breeze-galle-cabanas-overview.jpg</image:loc>
+      <image:title>Luxury and Supreme Deluxe Cabanas Overview</image:title>
+    </image:image>
+  </url>
+
+  <!-- Luxury Cabana -->
+  <url>
+    <loc>https://themountainbreezegalle.com/cabanas/luxury</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg</image:loc>
+      <image:title>Luxury Cabana with Deluxe King and Double Bed</image:title>
+    </image:image>
+  </url>
+
+  <!-- Supreme Deluxe Cabana -->
+  <url>
+    <loc>https://themountainbreezegalle.com/cabanas/supreme-deluxe</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg</image:loc>
+      <image:title>Supreme Deluxe Cabana with King Bed and Sofa Bed</image:title>
+    </image:image>
+  </url>
+
+  <!-- Packages -->
+  <url>
+    <loc>https://themountainbreezegalle.com/packages</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/packages/mountain-breeze-galle-packages-overview.jpg</image:loc>
+      <image:title>Full Board, Day-Out and Night-Out Packages</image:title>
+    </image:image>
+  </url>
+
+  <!-- Amenities -->
+  <url>
+    <loc>https://themountainbreezegalle.com/amenities</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/amenities/mountain-breeze-galle-amenities-overview.jpg</image:loc>
+      <image:title>Hot Tub, Garden Lounge and Premium Amenities</image:title>
+    </image:image>
+  </url>
+
+  <!-- Dining -->
+  <url>
+    <loc>https://themountainbreezegalle.com/dining</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/dining/mountain-breeze-galle-dining-experience.jpg</image:loc>
+      <image:title>Breakfast Options and Evening Tea Service</image:title>
+    </image:image>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://themountainbreezegalle.com/gallery</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/gallery/mountain-breeze-galle-gallery-overview.jpg</image:loc>
+      <image:title>Photo Gallery of Cabanas and Mountain Views</image:title>
+    </image:image>
+  </url>
+
+  <!-- Reviews -->
+  <url>
+    <loc>https://themountainbreezegalle.com/reviews</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/reviews/mountain-breeze-galle-reviews-testimonials.jpg</image:loc>
+      <image:title>Guest Reviews and Testimonials - 4.9/5 Rating</image:title>
+    </image:image>
+  </url>
+
+  <!-- Location -->
+  <url>
+    <loc>https://themountainbreezegalle.com/location</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/location/mountain-breeze-galle-location-map.jpg</image:loc>
+      <image:title>Location in Galle - Close to Fort and Beaches</image:title>
+    </image:image>
+  </url>
+
+  <!-- Booking -->
+  <url>
+    <loc>https://themountainbreezegalle.com/booking</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/booking/mountain-breeze-galle-booking-whatsapp.jpg</image:loc>
+      <image:title>Book Your Stay via WhatsApp</image:title>
+    </image:image>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://themountainbreezegalle.com/about</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/about/mountain-breeze-galle-about-story.jpg</image:loc>
+      <image:title>About The Mountain Breeze Galle Cabanas</image:title>
+    </image:image>
+  </url>
+
+  <!-- FAQs -->
+  <url>
+    <loc>https://themountainbreezegalle.com/faqs</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Policies -->
+  <url>
+    <loc>https://themountainbreezegalle.com/policies</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Experiences -->
+  <url>
+    <loc>https://themountainbreezegalle.com/experiences</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/experiences/galle-lighthouse-unesco-fort-attraction.jpg</image:loc>
+      <image:title>Galle Fort and Local Attractions</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://themountainbreezegalle.com/contact</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://themountainbreezegalle.com/images/contact/mountain-breeze-galle-contact-info.jpg</image:loc>
+      <image:title>Contact Information and WhatsApp Booking</image:title>
+    </image:image>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://themountainbreezegalle.com/privacy-policy</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://themountainbreezegalle.com/terms-conditions</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://themountainbreezegalle.com/terms-of-service</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
