@@ -38,7 +38,7 @@ export async function sendContactEmail(formData) {
     `;
 
     const result = await resend.emails.send({
-      from: 'noreply@themountainbreezegalle.com',
+      from: 'contact@themountainbreezegalle.com',
       to: 'contact@themountainbreezegalle.com',
       subject: `New Contact Form Submission: ${formData.subject}`,
       html: emailContent,
