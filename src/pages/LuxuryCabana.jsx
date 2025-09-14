@@ -5,6 +5,7 @@ import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
 import SEOHead from '../components/SEO/SEOHead';
+import Breadcrumbs from '../components/SEO/Breadcrumbs';
 import { getSEOConfig, generateBreadcrumbs } from '../utils/seoConfig';
 import { generateBreadcrumbSchema } from '../components/SEO/StructuredData';
 
@@ -71,6 +72,10 @@ function LuxuryCabana() {
         ogImage={seoConfig.ogImage}
         structuredData={generateBreadcrumbSchema(breadcrumbs)}
       />
+
+      {/* Breadcrumbs */}
+      <Breadcrumbs breadcrumbs={breadcrumbs} className="bg-ivory-mist" />
+
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

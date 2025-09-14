@@ -34,13 +34,21 @@ export const lodgingBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LodgingBusiness",
   "name": "The Mountain Breeze Galle Cabanas",
+  "alternateName": "Mountain Breeze Galle",
+  "description": "Luxury cabanas in Galle, Sri Lanka offering romantic getaways with mountain views, hot tub access, and authentic Sri Lankan hospitality.",
   "url": "https://themountainbreezegalle.com",
   "telephone": "+94775145131",
   "email": "contact@themountainbreezegalle.com",
+  "image": [
+    "https://themountainbreezegalle.com/images/hero/mountain-breeze-galle-overview-landscape.jpg",
+    "https://themountainbreezegalle.com/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg",
+    "https://themountainbreezegalle.com/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg"
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Kapuhempala, Godaduwa Rd",
     "addressLocality": "Galle",
+    "addressRegion": "Southern Province",
     "postalCode": "80000",
     "addressCountry": "LK"
   },
@@ -49,6 +57,7 @@ export const lodgingBusinessSchema = {
     "latitude": "6.0535",
     "longitude": "-80.2210"
   },
+  "openingHours": "Mo-Su 00:00-23:59",
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
@@ -79,6 +88,26 @@ export const lodgingBusinessSchema = {
       "@type": "LocationFeatureSpecification",
       "name": "Kitchen facilities",
       "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Garden",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Mountain view",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Private bathroom",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Daily housekeeping",
+      "value": true
     }
   ],
   "aggregateRating": {
@@ -93,7 +122,12 @@ export const lodgingBusinessSchema = {
   "paymentAccepted": "Cash, Credit Card, Bank Transfer",
   "checkinTime": "14:00",
   "checkoutTime": "10:00",
-  "petsAllowed": true
+  "petsAllowed": true,
+  "numberOfRooms": "2",
+  "starRating": {
+    "@type": "Rating",
+    "ratingValue": "4"
+  }
 };
 
 // Review Schema Generator
@@ -163,6 +197,48 @@ export const generateServiceSchema = (service) => ({
     "availability": "https://schema.org/InStock"
   }
 });
+
+// Local Business Schema
+export const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Mountain Breeze Galle Cabanas",
+  "image": "https://themountainbreezegalle.com/images/hero/mountain-breeze-galle-overview-landscape.jpg",
+  "telephone": "+94775145131",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kapuhempala, Godaduwa Rd",
+    "addressLocality": "Galle",
+    "postalCode": "80000",
+    "addressCountry": "LK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 6.0535,
+    "longitude": -80.2210
+  },
+  "url": "https://themountainbreezegalle.com",
+  "priceRange": "$39-$72",
+  "openingHours": ["Mo-Su 00:00-23:59"]
+};
+
+// Website Schema
+export const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Mountain Breeze Galle Cabanas",
+  "url": "https://themountainbreezegalle.com",
+  "description": "Luxury cabanas in Galle, Sri Lanka offering romantic getaways with mountain views, hot tub access, and authentic Sri Lankan hospitality.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Mountain Breeze Galle Cabanas"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://themountainbreezegalle.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
 
 const StructuredData = ({ schema }) => {
   if (!schema) return null;

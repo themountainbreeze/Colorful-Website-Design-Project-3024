@@ -5,6 +5,7 @@ import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
 import SEOHead from '../components/SEO/SEOHead';
+import Breadcrumbs from '../components/SEO/Breadcrumbs';
 import { getSEOConfig, generateBreadcrumbs } from '../utils/seoConfig';
 import { generateBreadcrumbSchema } from '../components/SEO/StructuredData';
 
@@ -61,6 +62,10 @@ function CabanasOverview() {
         ogImage={seoConfig.ogImage}
         structuredData={generateBreadcrumbSchema(breadcrumbs)}
       />
+
+      {/* Breadcrumbs */}
+      <Breadcrumbs breadcrumbs={breadcrumbs} className="bg-ivory-mist" />
+
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-emerald-canopy to-ocean-teal text-white">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

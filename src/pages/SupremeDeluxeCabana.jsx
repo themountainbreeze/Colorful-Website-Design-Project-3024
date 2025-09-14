@@ -4,6 +4,10 @@ import { motion } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
+import SEOHead from '../components/SEO/SEOHead';
+import Breadcrumbs from '../components/SEO/Breadcrumbs';
+import { getSEOConfig, generateBreadcrumbs } from '../utils/seoConfig';
+import { generateBreadcrumbSchema } from '../components/SEO/StructuredData';
 
 const { FiWifi, FiCoffee, FiTv, FiClock, FiUsers, FiHeart } = FiIcons;
 const { FaHotTub, FaPaw } = FaIcons;
@@ -50,6 +54,9 @@ function SupremeDeluxeCabana() {
     }
   ];
 
+  const seoConfig = getSEOConfig('supremeDeluxeCabana');
+  const breadcrumbs = generateBreadcrumbs('/cabanas/supreme-deluxe');
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -57,6 +64,18 @@ function SupremeDeluxeCabana() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <SEOHead
+        title={seoConfig.title}
+        description={seoConfig.description}
+        keywords={seoConfig.keywords}
+        canonicalUrl={seoConfig.canonicalUrl}
+        ogImage={seoConfig.ogImage}
+        structuredData={generateBreadcrumbSchema(breadcrumbs)}
+      />
+
+      {/* Breadcrumbs */}
+      <Breadcrumbs breadcrumbs={breadcrumbs} className="bg-ivory-mist" />
+
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

@@ -1,0 +1,50 @@
+# Netlify redirects for SPA (Single Page Application)
+# This ensures all routes are handled by React Router
+
+# SEO-friendly redirects for common variations
+/home                    /                     301
+/index                   /                     301
+/index.html              /                     301
+/cabana                  /cabanas              301
+/cabana/*                /cabanas/:splat       301
+/room                    /cabanas              301
+/rooms                   /cabanas              301
+/accommodation           /cabanas              301
+/package                 /packages             301
+/offer                   /packages             301
+/offers                  /packages             301
+/facility                /amenities            301
+/facilities              /amenities            301
+/food                    /dining               301
+/restaurant              /dining               301
+/photo                   /gallery              301
+/photos                  /gallery              301
+/image                   /gallery              301
+/images                  /gallery              301
+/testimonial             /reviews              301
+/testimonials            /reviews              301
+/feedback                /reviews              301
+/reserve                 /booking              301
+/reservation             /booking              301
+/book                    /booking              301
+/faq                     /faqs                 301
+/policy                  /policies             301
+/rule                    /policies             301
+/rules                   /policies             301
+/activity                /experiences          301
+/activities              /experiences          301
+/attraction              /experiences          301
+/attractions             /experiences          301
+/tour                    /experiences          301
+/tours                   /experiences          301
+
+# Handle all other routes by serving index.html
+/*    /index.html   200
+
+# Security headers
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()

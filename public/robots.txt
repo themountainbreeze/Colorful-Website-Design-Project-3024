@@ -6,6 +6,13 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /*.json$
 Disallow: /api/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /dist/
+Disallow: /build/
+Disallow: /*?*
+Disallow: /#
 
 # Allow important pages
 Allow: /

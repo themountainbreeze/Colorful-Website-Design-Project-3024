@@ -5,7 +5,7 @@ import * as FiIcons from 'react-icons/fi';
 import * as FaIcons from 'react-icons/fa';
 import SafeIcon from '../common/SafeIcon';
 import SEOHead from '../components/SEO/SEOHead';
-import StructuredData, { organizationSchema, lodgingBusinessSchema } from '../components/SEO/StructuredData';
+import StructuredData, { organizationSchema, lodgingBusinessSchema, localBusinessSchema, websiteSchema } from '../components/SEO/StructuredData';
 import { getSEOConfig } from '../utils/seoConfig';
 
 const { FiStar, FiMapPin, FiWifi, FiCoffee } = FiIcons;
@@ -134,7 +134,7 @@ function Home() {
         keywords={seoConfig.keywords}
         canonicalUrl={seoConfig.canonicalUrl}
         ogImage={seoConfig.ogImage}
-        structuredData={[organizationSchema, lodgingBusinessSchema]}
+        structuredData={[organizationSchema, lodgingBusinessSchema, localBusinessSchema, websiteSchema]}
       />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 
 const SEOHead = ({
   title,
@@ -13,12 +14,16 @@ const SEOHead = ({
   noindex = false,
   nofollow = false
 }) => {
+  const location = useLocation();
   const siteUrl = 'https://themountainbreezegalle.com';
   const siteName = 'The Mountain Breeze Galle Cabanas';
   const defaultImage = `${siteUrl}/images/hero/mountain-breeze-galle-overview-landscape.jpg`;
-  
+
   const fullTitle = title ? `${title} | ${siteName}` : `${siteName} | Luxury Cabanas in Galle, Sri Lanka`;
-  const fullCanonicalUrl = canonicalUrl ? `${siteUrl}${canonicalUrl}` : siteUrl;
+
+  // Use provided canonicalUrl or current location pathname for proper canonical URL
+  const currentPath = canonicalUrl || location.pathname;
+  const fullCanonicalUrl = `${siteUrl}${currentPath}`;
   const fullOgImage = ogImage ? `${siteUrl}${ogImage}` : defaultImage;
 
   const robotsContent = [
@@ -58,6 +63,12 @@ const SEOHead = ({
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
       <meta name="revisit-after" content="7 days" />
+      <meta name="theme-color" content="#11845B" />
+      <meta name="msapplication-TileColor" content="#11845B" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta name="format-detection" content="telephone=yes" />
+      <meta name="mobile-web-app-capable" content="yes" />
 
       {/* Geo Tags */}
       <meta name="geo.region" content="LK-11" />
@@ -67,9 +78,17 @@ const SEOHead = ({
 
       {/* Structured Data */}
       {structuredData && (
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
+        Array.isArray(structuredData) ? (
+          structuredData.map((schema, index) => (
+            <script key={index} type="application/ld+json">
+              {JSON.stringify(schema)}
+            </script>
+          ))
+        ) : (
+          <script type="application/ld+json">
+            {JSON.stringify(structuredData)}
+          </script>
+        )
       )}
     </Helmet>
   );

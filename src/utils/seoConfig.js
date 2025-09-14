@@ -2,18 +2,20 @@
 export const seoConfig = {
   home: {
     title: "The Mountain Breeze Galle Cabanas | Romantic Mountain-View Cabana Stays in Galle",
-    description: "Private luxury cabanas with AC, balcony, hot tub access and breakfast options. Day-out, night-out and full board packages. Book instantly on WhatsApp.",
-    keywords: "galle cabanas, luxury cabanas galle, romantic cabana galle, mountain view cabanas, sri lanka cabanas, galle accommodation, hot tub cabana galle, pet friendly cabana galle",
+    description: "Private luxury cabanas with AC, balcony, hot tub access and breakfast options. Day-out, night-out and full board packages. Book instantly on WhatsApp. 4.9/5 rating from 44+ reviews.",
+    keywords: "galle cabanas, luxury cabanas galle, romantic cabana galle, mountain view cabanas, sri lanka cabanas, galle accommodation, hot tub cabana galle, pet friendly cabana galle, galle fort accommodation, honeymoon cabana sri lanka",
     canonicalUrl: "/",
-    ogImage: "/images/hero/mountain-breeze-galle-overview-landscape.jpg"
+    ogImage: "/images/hero/mountain-breeze-galle-overview-landscape.jpg",
+    ogType: "website"
   },
   
   cabanas: {
     title: "Luxury Cabanas Overview | The Mountain Breeze Galle",
-    description: "Choose from our Luxury and Supreme Deluxe Cabanas. Both feature AC, mountain views, private kitchens, and accommodate up to 4 guests in Galle's green hills.",
-    keywords: "galle cabanas overview, luxury cabana galle, supreme deluxe cabana, mountain view accommodation galle, 4 guest cabana galle",
+    description: "Choose from our Luxury and Supreme Deluxe Cabanas. Both feature AC, mountain views, private kitchens, and accommodate up to 4 guests in Galle's green hills. Pet-friendly with hot tub access.",
+    keywords: "galle cabanas overview, luxury cabana galle, supreme deluxe cabana, mountain view accommodation galle, 4 guest cabana galle, family cabana galle, pet friendly accommodation galle",
     canonicalUrl: "/cabanas",
-    ogImage: "/images/cabanas/mountain-breeze-galle-cabanas-overview.jpg"
+    ogImage: "/images/cabanas/mountain-breeze-galle-cabanas-overview.jpg",
+    ogType: "website"
   },
 
   luxuryCabana: {

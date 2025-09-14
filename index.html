@@ -2,33 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/images/logo/mountain-breeze-galle-cabanas-favicon.png" />
+    <link rel="apple-touch-icon" href="/images/logo/mountain-breeze-galle-cabanas-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#11845B" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Mountain Breeze Galle" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="msapplication-TileColor" content="#11845B" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- Default title and description - will be overridden by React Helmet -->
     <title>The Mountain Breeze Galle Cabanas | Luxury Cabanas in Galle, Sri Lanka</title>
     <meta name="description" content="Private luxury cabanas with AC, balcony, hot tub access and breakfast options. Day-out, night-out and full board packages. Book instantly on WhatsApp." />
 
-    <!-- SEO Meta Tags -->
-    <meta name="keywords" content="galle cabanas, luxury cabanas galle, romantic cabana galle, mountain view cabanas, sri lanka cabanas, galle accommodation, hot tub cabana galle, pet friendly cabana galle" />
+    <!-- Basic SEO Meta Tags -->
     <meta name="author" content="The Mountain Breeze Galle Cabanas" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://themountainbreezegalle.com/" />
 
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="The Mountain Breeze Galle Cabanas | Luxury Cabanas in Galle, Sri Lanka" />
-    <meta property="og:description" content="Private luxury cabanas with AC, balcony, hot tub access and breakfast options. Day-out, night-out and full board packages. Book instantly on WhatsApp." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://themountainbreezegalle.com/" />
-    <meta property="og:image" content="https://themountainbreezegalle.com/images/hero/mountain-breeze-galle-overview-landscape.jpg" />
-    <meta property="og:site_name" content="The Mountain Breeze Galle Cabanas" />
-    <meta property="og:locale" content="en_US" />
-
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Mountain Breeze Galle Cabanas | Luxury Cabanas in Galle, Sri Lanka" />
-    <meta name="twitter:description" content="Private luxury cabanas with AC, balcony, hot tub access and breakfast options. Day-out, night-out and full board packages. Book instantly on WhatsApp." />
-    <meta name="twitter:image" content="https://themountainbreezegalle.com/images/hero/mountain-breeze-galle-overview-landscape.jpg" />
-
-    <!-- Geo Tags -->
+    <!-- Geo Tags for Local SEO -->
     <meta name="geo.region" content="LK-11" />
     <meta name="geo.placename" content="Galle, Sri Lanka" />
     <meta name="geo.position" content="6.0535,-80.2210" />
@@ -36,17 +29,28 @@
     
     <!-- Performance Optimization -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//lh3.googleusercontent.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
 
     <!-- Critical CSS - Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Preload critical images -->
-    <link rel="preload" as="image" href="/images/hero/mountain-breeze-galle-overview-landscape.jpg" />
-    <link rel="preload" as="image" href="/images/logo/mountain-breeze-galle-cabanas-logo.png" />
+    <link rel="preload" as="image" href="/images/hero/mountain-breeze-galle-overview-landscape.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/logo/mountain-breeze-galle-cabanas-logo.png" fetchpriority="high" />
+
+    <!-- Preload critical CSS -->
+    <link rel="preload" as="style" href="/src/index.css" />
+
+    <!-- Resource hints for better performance -->
+    <link rel="prefetch" href="/images/cabanas/luxury/mountain-breeze-galle-luxury-cabana-exterior.jpeg" />
+    <link rel="prefetch" href="/images/cabanas/supreme_deluxe/mountain-breeze-galle-supreme-deluxe-cabana-exterior.jpeg" />
 
     <!-- Cookie Consent Banner -->
     <link rel="stylesheet" id="silktide-consent-manager-css" href="/css/silktide-consent-manager.css">
