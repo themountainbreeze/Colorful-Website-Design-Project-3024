@@ -174,12 +174,12 @@ function Gallery() {
       category: 'cabanas',
       credit: 'Guest photo via Google - Bunny bro'
     },
-    {
+      {
       id: 23,
-      src: '/images/gallery/mountain-breeze-galle-cabana-interior-guest-photo-akash.jpg',
+      src: '/images/gallery/mountain-breeze-galle-modern-cabana-interior-excellent-facilities.jpg',
       alt: 'Modern cabana interior with excellent facilities',
       category: 'cabanas',
-      credit: 'Guest photo via Google - Akash Snenevirathne'
+      credit: 'The Mountain Breeze Galle'
     },
     {
       id: 24,
